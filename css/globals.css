@@ -1,0 +1,12 @@
+:root {
+    --red: #E36F59;
+    --black: #23262D;
+    --txt: #606268;
+    --white: #FFFFFF;
+
+    --link-color: var(--black);
+    --link-active-color: var(--red);
+
+    --article-title: var(--black);
+    --article-text: var(--txt);
+}
