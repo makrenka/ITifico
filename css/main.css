@@ -2,6 +2,8 @@
 @import url(./reset.css);
 @import url(../libs/css/normalize.css);
 @import url(./globals.css);
+@import url(./components/header.css);
+@import url(./common.css);
 
 * {
     box-sizing: border-box;
