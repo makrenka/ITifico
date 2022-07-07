@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'SegoeUI';
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/SegoeUI/SegoeUI-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-weight: 700;
+    font-style: italic;
+    src: url(../fonts/SegoeUI/SegoeUI-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-weight: 600;
+    font-style: normal;
+    src: url(../fonts/SegoeUI/SegoeUI-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/SegoeUI/SegoeUI.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-weight: 400;
+    font-style: italic;
+    src: url(../fonts/SegoeUI/SegoeUI-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bitter';
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/Bitter/static/Bitter-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bitter';
+    font-weight: 700;
+    font-style: italic;
+    src: url(../fonts/Bitter/static/Bitter-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bitter';
+    font-weight: 600;
+    font-style: normal;
+    src: url(../fonts/Bitter/static/Bitter-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bitter';
+    font-weight: 600;
+    font-style: italic;
+    src: url(../fonts/Bitter/static/Bitter-SemiBoldItalic.ttf) format('truetype');
+}
