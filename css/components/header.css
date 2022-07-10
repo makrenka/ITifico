@@ -1,4 +1,6 @@
-.header {}
+.header {
+    margin-top: 18px;
+}
 
 .header__wrapper {
     display: flex;
@@ -6,7 +8,9 @@
     align-items: center;
 }
 
-.header__logo {}
+.header__logo {
+    padding-bottom: 9px;
+}
 
 .header__navigation {
     display: flex;
