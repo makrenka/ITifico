@@ -35,6 +35,13 @@
 
 @font-face {
     font-family: 'Bitter';
+    font-weight: 900;
+    font-style: normal;
+    src: url(../fonts/Bitter/static/Bitter-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Bitter';
     font-weight: 700;
     font-style: normal;
     src: url(../fonts/Bitter/static/Bitter-Bold.ttf) format('truetype');
@@ -59,4 +66,21 @@
     font-weight: 600;
     font-style: italic;
     src: url(../fonts/Bitter/static/Bitter-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+    src: url('../fonts/font-awesome/fa-regular-400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    src: url('../fonts/font-awesome/fa-solid-900.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    src: url('../fonts/font-awesome/fa-v4compatibility.ttf') format('truetype');
 }

@@ -4,6 +4,8 @@
 @import url(./globals.css);
 @import url(./components/header.css);
 @import url(./common.css);
+@import url(./components/content-homepage2.css);
+@import url(../libs/css/awesome.css);
 
 * {
     box-sizing: border-box;
