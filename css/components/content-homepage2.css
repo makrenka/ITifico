@@ -1,12 +1,31 @@
-/* .main__information-title {
+.main__information {
+    margin-top: 58px;
+}
+
+.main__information-title-homepage {
+    height: 545px;
+    width: 156px;
+    float: left;
+    transform: translateX(154px);
+    margin-top: 24px;
+}
+
+.main__information-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__information-text h1 {
+    margin-top: 28px;
     font-family: 'Bitter';
     font-style: normal;
-    font-weight: 900;
-    font-size: 130px;
-    line-height: 156px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    opacity: 0.06;
-    border: 2px solid #23262D;
-    transform: rotate(-90deg);
-} */
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+}
+
+.main__information-text h1 a {
+    color: var(--link-active-color);
+    text-decoration: none;
+}
