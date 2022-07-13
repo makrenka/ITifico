@@ -1,29 +1,27 @@
 .main__information {
     margin-top: 58px;
-}
-
-.main__information-title-homepage {
-    height: 545px;
-    width: 156px;
-    float: left;
-    transform: translateX(154px);
-    margin-top: 24px;
+    background: url(../../images/title-homepage.png) no-repeat 154px 24px;
 }
 
 .main__information-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    background: url(../../images/straight-brackets.png) no-repeat 563px 380px;   
 }
 
-.main__information-text h1 {
-    margin-top: 28px;
-    margin-bottom: 22px;
+.main__information-text {
+    max-width: 654px;
+}
+
+.main__information-text h1 {    
+    margin: 28px 0 22px 0;
     font-family: 'Bitter';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 0.005em;
+    max-width: 636px;
 }
 
 .main__information-text h1 a {
@@ -38,7 +36,7 @@
     font-size: 18px;
     line-height: 26px;
     color: var(--txt);
-    width: 512px;
+    max-width: 512px;
 }
 
 .main__information-btn {
@@ -66,18 +64,30 @@
     margin-top: 77px;
 }
 
-.main__information-text-scroll-img {
+.main__information-text-scroll-img a {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    flex: 0 0 141px;
+    margin-right: 30px;
+    width: 133px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--link-color);
 }
 
-.main__information-text-scroll-down p {
-    padding-left: 13px;
+.main__information-text-scroll-img a img {
+    margin-right: 13px;
 }
 
 .main__information-text-scroll-border {
     border: 1px solid #D8DFDA;
-    flex: 2 2 auto;
+    margin-top: 5px;
+    width: 523px;
+}
+
+.main__information-image {
+    
 }
