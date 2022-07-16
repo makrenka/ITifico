@@ -1,19 +1,25 @@
 .main__information {
     margin-top: 58px;
-    background: url(../../images/title-homepage.png) no-repeat 154px 24px;
+
 }
 
 .main__information-wrapper {
     display: flex;
-    justify-content: space-between; 
-    background: url(../../images/straight-brackets.png) no-repeat 563px 380px;   
+    justify-content: space-between;
 }
 
 .main__information-text {
     max-width: 654px;
+    position: relative;
 }
 
-.main__information-text h1 {    
+.main__information-title-homepage {
+    position: absolute;
+    left: -191px;
+    top: 24px;
+}
+
+.main__information-text h1 {
     margin: 28px 0 22px 0;
     font-family: 'Bitter';
     font-style: normal;
@@ -89,5 +95,19 @@
 }
 
 .main__information-image {
-    
+    position: relative;
+}
+
+.main__information-image-brackets {
+    position: absolute;
+    left: -92px;
+    top: 380px;
+    z-index: -1;
+}
+
+.main__information-image-braces {
+    position: absolute;
+    left: 461px;
+    top: 4px;
+    z-index: -1;
 }
