@@ -7,6 +7,7 @@
 @import url(./components/main-information-1230.css);
 @import url(../libs/css/awesome.css);
 @import url(./components/articles-slider.css);
+@import url(./components/slide.css);
 
 * {
     box-sizing: border-box;

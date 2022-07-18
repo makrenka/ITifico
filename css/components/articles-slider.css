@@ -1,5 +1,13 @@
 .main__articles {
     margin-top: 158px;
+    position: relative;
+}
+
+.main__articles-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .main__articles-slider-list {
@@ -24,9 +32,3 @@
     display: flex;
 }
 
-.main__articles-slide {
-    width: 285px;
-    height: 454px;
-    flex-shrink: 0;
-    margin-right: 30px;
-}
