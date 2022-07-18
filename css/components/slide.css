@@ -61,7 +61,9 @@
 .main__articles-slide-heading {
     margin-top: 15px;
     margin-left: 15px;
+    margin-right: 19px;
     min-height: 66px;
+    max-height: 66px;
 }
 
 .main__articles-slide-heading a {
@@ -81,9 +83,8 @@
     font-size: 14px;
     line-height: 20px;
     color: var(--txt);
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-bottom: 22px;
+    margin: 15px 13px 22px 15px;    
+    max-height: 60px;
 }
 
 .main__articles-slide-panel {
