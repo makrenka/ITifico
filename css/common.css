@@ -48,3 +48,14 @@
     z-index: -1;
 }
 
+.main__slider-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main__slider-arrow-prev, .main__slider-arrow-next {
+    border: none;
+    background: none;
+}
