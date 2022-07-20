@@ -7,13 +7,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+    padding: 0 15px;
 }
 
 .main__articles-slider-list {
     position: relative;
-    width: 1230px;
-    height: 454px;
+    height: 484px;
     user-select: none;
     touch-action: pan-y;
 }
@@ -23,12 +23,24 @@
 }
 
 .main__articles-slider-wrapper-track {
-    width: 1230px;
-    height: 454px;
     overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .main__articles-slider-track {
     display: flex;
 }
 
+.main__slider-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.main__slider-arrow-prev, .main__slider-arrow-next {
+    border: none;
+    background: none;
+}
