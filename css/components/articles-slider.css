@@ -11,27 +11,22 @@
     padding: 0 15px;
 }
 
-.main__articles-slider-list {
-    position: relative;
-    height: 484px;
-    user-select: none;
-    touch-action: pan-y;
+.main__articles-slider-list {    
+    height: 484px;    
 }
 
 .main__articles-slider-list img {
     pointer-events: none;
 }
 
-.main__articles-slider-wrapper-track {
-    overflow: hidden;
+.main__articles-slider-wrapper-track {    
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
 }
 
 .main__articles-slider-track {
-    display: flex;
-    transform: translate3d(0px, 0px, 0px);
+    display: flex;    
 }
 
 .main__slider-arrow {
