@@ -1,6 +1,6 @@
 .main__articles-slide {
     width: 285px;
-    height: 454px;
+    height: 454px !important;
     flex-shrink: 0;
     margin-right: 30px;
     background: #FFFFFF;

@@ -4,6 +4,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 4,
     spaceBetween: 30,
+    width: 1230,
   
     // If we need pagination
     pagination: {
