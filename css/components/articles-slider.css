@@ -3,37 +3,38 @@
     position: relative;
 }
 
+.main__background-pink {
+    position: absolute;
+    top: -37px;
+    left: 1199px;
+    z-index: -1;
+}
+
 .main__articles-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
-    padding: 0 15px;
+    margin-bottom: 25px;   
+    padding: 0 15px; 
 }
 
 .main__articles-slider-list {    
     height: 484px;    
 }
 
-.main__articles-slider-list img {
-    pointer-events: none;
-}
-
 .main__articles-slider-wrapper-track {    
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding: 15px;
 }
 
-.main__articles-slider-track {
-    display: flex;    
-}
-
-.main__slider-arrow {
+/* .main__slider-arrow {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
+} */
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
 }
 
 .main__slider-arrow-prev, .main__slider-arrow-next {
