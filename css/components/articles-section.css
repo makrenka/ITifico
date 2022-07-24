@@ -1,0 +1,23 @@
+.main__articles {
+    margin-top: 158px;
+    position: relative;
+}
+
+.main__background-pink {
+    position: absolute;
+    top: -37px;
+    left: 1199px;
+    z-index: -1;
+}
+
+.main__articles-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 0 15px;
+}
+
+.main__articles-slider-list {
+    height: 539px;
+}

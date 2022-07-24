@@ -6,8 +6,11 @@
 @import url(./common.css);
 @import url(./components/main-information-1230.css);
 @import url(../libs/css/awesome.css);
-@import url(./components/articles-slider.css);
-@import url(./components/slide.css);
+@import url(./components/articles-section.css);
+@import url(./components/slide-articles-blog.css);
+@import url(./components/slider.css);
+@import url(./components/courses-section.css);
+@import url(./components/slide-courses.css);
 
 
 * {

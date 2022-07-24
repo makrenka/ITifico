@@ -1,0 +1,13 @@
+.main__courses-slide-hero {
+    width: 600px;
+    height: 266px;
+    background: #CCC1F6;
+    border-radius: 8px;
+}
+
+.main__courses-slide-new {
+    width: 600px;
+    height: 266px;
+    background: #E7EEF3;
+    border-radius: 8px;
+}
