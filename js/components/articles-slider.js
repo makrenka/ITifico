@@ -1,11 +1,17 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.main__articles-slider-list', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  slidesPerView: 4,
+  spaceBetween: 30,
+  width: 1230,
 
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    dynamicBullets: true,
+    dynamicMainBullets: 4,
+    clickable: true,
   },
 
   // Navigation arrows
@@ -14,8 +20,4 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
 });
