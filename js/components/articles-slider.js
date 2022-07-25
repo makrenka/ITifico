@@ -1,4 +1,4 @@
-const swiper = new Swiper('.main__articles-slider-list', {
+const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
@@ -18,6 +18,30 @@ const swiper = new Swiper('.main__articles-slider-list', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+  },
+
+});
+
+new Swiper('.swiper-2', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 4,
+  spaceBetween: 30,
+  width: 1230,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination-2',
+    dynamicBullets: true,
+    dynamicMainBullets: 4,
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next-2',
+    prevEl: '.swiper-button-prev-2',
   },
 
 });
