@@ -8,7 +8,7 @@
 @import url(../libs/css/awesome.css);
 @import url(./components/articles-section.css);
 @import url(./components/slide-articles-blog.css);
-@import url(./components/slider.css);
+@import url(./components/swiper-slider.css);
 @import url(./components/courses-section.css);
 @import url(./components/slide-courses.css);
 
@@ -20,8 +20,4 @@
 body {
     font-family: 'SegoeUI', sans-serif;
     font-weight: 400;
-}
-
-.wrapper {
-    background: url(../images/background-big-blue.svg) no-repeat;
 }
