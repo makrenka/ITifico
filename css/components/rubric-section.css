@@ -1,0 +1,54 @@
+.main__rubric-title-wrapper {
+    position: relative;
+}
+
+.main__rubric-heading {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: var(--article-title);
+    margin-top: 160px;
+}
+
+.main__rubric-title-wrapper-img {
+    position: absolute;
+    top: 34px;
+    left: 905px;
+    z-index: -1;
+}
+
+.main__rubric-frames-wrapper {
+    margin-top: 64px;
+    margin-left: 334px;
+    display: flex;
+}
+
+.main__rubric-frame1 {
+    margin-left: 0;
+    max-width: 312px;
+}
+
+.main__rubric-frame2 {
+    margin-top: 29px;
+    margin-left: 158px;
+    max-width: 342px;
+}
+
+.main__rubric-frame3 {
+    margin-left: 129px;
+    min-width: 276px;
+}
+
+.main__rubric-frame-title {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black);
+}
