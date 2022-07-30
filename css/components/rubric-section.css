@@ -12,6 +12,7 @@
     letter-spacing: 0.01em;
     color: var(--article-title);
     margin-top: 160px;
+    background: url(../../images/background/rectangle-65.svg) no-repeat center bottom;
 }
 
 .main__rubric-title-wrapper-img {

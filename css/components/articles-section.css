@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.main__articles-title {
+    background: url(../../images/background/rectangle-65.svg) no-repeat 6px 34px;
+}
+
 .main__title-wrapper {
     position: relative;
 }
@@ -21,7 +25,7 @@
     font-size: 50px;
     line-height: 50px;
     letter-spacing: 0.01em;
-    color: var(--black);
+    color: var(--black);    
 }
 
 .more-action {

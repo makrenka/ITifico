@@ -64,6 +64,10 @@
     margin-right: 19px;
     min-height: 66px;
     max-height: 66px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .main__articles-slide-heading a {
@@ -83,8 +87,12 @@
     font-size: 14px;
     line-height: 20px;
     color: var(--txt);
-    margin: 15px 13px 22px 15px;    
+    margin: 15px 13px 22px 15px;
     max-height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .main__articles-slide-panel {
