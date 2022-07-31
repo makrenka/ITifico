@@ -4,7 +4,7 @@
 }
 
 .main__articles-title {
-    background: url(../../images/background/rectangle-65.svg) no-repeat 6px 34px;
+    background: url(../../images/background/rectangle-articles.svg) no-repeat 6px 34px;
 }
 
 .main__title-wrapper {
@@ -44,6 +44,16 @@
     line-height: 19px;
     color: var(--red);
     cursor: pointer;
+    transition: color .3s;    
+}
+
+.more-action:hover {
+    background: var(--red);
+    color: var(--white);
+}
+
+.more-action:active {
+    background: #C7523C;
 }
 
 .main__articles-title {

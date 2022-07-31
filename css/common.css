@@ -16,7 +16,7 @@
     z-index: -1;
 }
 
-.main__background-little-blue {
+.main__background-small-blue-courses {
     position: absolute;
     top: 1752px;
     left: 1273px;
@@ -26,6 +26,14 @@
 .main__background-pink-footer {
     position: absolute;
     top: 2653px;
+    z-index: -1;
+}
+
+.main__background-small-blue-form {
+    position: absolute;
+    top: 2909px;
+    left: 1300px;
+    z-index: -1;
 }
 
 .container {

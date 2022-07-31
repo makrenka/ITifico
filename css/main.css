@@ -12,6 +12,8 @@
 @import url(./components/courses-section.css);
 @import url(./components/slide-courses.css);
 @import url(./components/rubric-section.css);
+@import url(./components/form-subscription.css);
+@import url(./components/footer.css);
 
 
 * {

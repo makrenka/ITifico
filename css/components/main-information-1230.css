@@ -51,8 +51,8 @@
     align-items: center;
     padding: 21px 35px 20px;
     gap: 20px;
-    background: #E36F59;
-    border-color: #E36F59;
+    background: var(--red);
+    border-color: var(--red);
     border-radius: 8px;
     margin-top: 49px;
     font-family: 'Bitter';
@@ -61,6 +61,15 @@
     font-size: 16px;
     line-height: 19px;
     color: var(--white);
+    cursor: pointer;    
+}
+
+.main__information-btn:hover {
+    box-shadow: 0px 14px 14px rgba(190, 39, 39, 0.14);
+}
+
+.main__information-btn:active {
+    background: #C7523C;
 }
 
 .main__information-text-scroll-down {
