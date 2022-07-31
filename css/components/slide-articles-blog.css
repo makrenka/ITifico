@@ -78,6 +78,11 @@
     line-height: 22px;
     text-decoration: none;
     color: var(--link-color);
+    transition: color .3s;
+}
+
+.main__articles-slide-heading a:hover {
+    color: var(--link-active-color);
 }
 
 .main__articles-slide-text {
