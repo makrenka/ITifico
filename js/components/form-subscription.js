@@ -8,23 +8,34 @@ document.getElementById("mail-btn").onclick = function() {
     event.preventDefault();
 }
 
-const userBtn = document.getElementById("user-btn");
 const userInput = document.getElementById("user-input");
+const mailInput = document.getElementById("mail-input");
 const borderUser = document.querySelector('.main__subscription-wrapper-user');
+const borderMail = document.querySelector('.main__subscription-wrapper-mail');
 
-userInput.addEventListener('focus', borderColorOn);
-userInput.addEventListener('mouseenter', borderColorOn);
+userInput.addEventListener('focus', borderColorUserOn);
+mailInput.addEventListener('focus', borderColorMailOn);
 
-function borderColorOn() {
+function borderColorUserOn() {
     borderUser.classList.add('main__subscription-wrapper-user--active');
-    userInput.classList.add('main__subscription-input--active');
+    userInput.classList.add('main__subscription-input--active');    
 }
 
-userInput.addEventListener('mouseleave', borderColorOut);
-// userInput.addEventListener('unfocus', borderColorOut);
+function borderColorMailOn() {    
+    borderMail.classList.add('main__subscription-wrapper-mail--active');
+    mailInput.classList.add('main__subscription-input--active');
+}
 
-function borderColorOut() {
-    borderUser.classList.add('main__subscription-wrapper-user');
-    userInput.classList.add('main__subscription-input');
+userInput.addEventListener('blur', borderColorUserOff);
+mailInput.addEventListener('blur', borderColorMailOff);
+
+function borderColorUserOff() {
+    borderUser.classList.remove('main__subscription-wrapper-user--active');
+    userInput.classList.remove('main__subscription-input--active');    
+}
+
+function borderColorMailOff() {    
+    borderMail.classList.remove('main__subscription-wrapper-mail--active');
+    mailInput.classList.remove('main__subscription-input--active');
 }
 

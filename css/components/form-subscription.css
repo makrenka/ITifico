@@ -47,12 +47,15 @@
     align-items: center;
 }
 
-/* .main__subscription-wrapper-user:hover {
+.main__subscription-wrapper-user:hover {
     border-color: var(--gray2);
-} */
+}
 
 .main__subscription-wrapper-user--active {
-    border-color: var(--gray2);
+    border: 2px solid var(--gray2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
 }
 
 .main__subscription-wrapper-mail {
@@ -64,6 +67,13 @@
 
 .main__subscription-wrapper-mail:hover {
     border-color: var(--gray2);
+}
+
+.main__subscription-wrapper-mail--active {
+    border: 2px solid var(--gray2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
 }
 
 .main__subscription-input {
@@ -85,18 +95,24 @@
     outline: none;
 }
 
-/* .main__subscription-input:hover {
-    border-right-color: var(--gray2);
-} */
-
 .main__subscription-input--active {
-    border-right-color: var(--gray2);
+    width: 330px;
+    height: 40px;
+    margin: 10px 0;
+    background: var(--white);
+    padding-left: 30px;
+    border: none;
+    border-right: 2px solid var(--gray2);
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--txt);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
 }
-
-/* .main__subscription-input:focus {
-    border-right-color: var(--gray2);
-    color: var(--black);
-} */
 
 .main__subscription-input-btn-user {
     margin-left: -4px;
