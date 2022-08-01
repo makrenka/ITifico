@@ -4,6 +4,17 @@
 @import url(./globals.css);
 @import url(./components/header.css);
 @import url(./common.css);
+@import url(./components/main-information-1230.css);
+@import url(../libs/css/awesome.css);
+@import url(./components/articles-section.css);
+@import url(./components/slide-articles-blog.css);
+@import url(./components/swiper-slider.css);
+@import url(./components/courses-section.css);
+@import url(./components/slide-courses.css);
+@import url(./components/rubric-section.css);
+@import url(./components/form-subscription.css);
+@import url(./components/footer.css);
+
 
 * {
     box-sizing: border-box;

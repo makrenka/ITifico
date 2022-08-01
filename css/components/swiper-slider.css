@@ -1,0 +1,57 @@
+.main__slider-wrapper {
+    position: relative;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.main__slider-wrapper-track {
+    padding: 15px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
+}
+
+.main__slider-arrow-prev,
+.main__slider-arrow-next {
+    border: none;
+    background: none;
+}
+
+.main__slider-arrow-prev {
+    position: absolute !important;
+    top: 522px !important;
+    left: 45px !important;
+}
+
+.main__slider-arrow-next {
+    position: absolute !important;
+    top: 522px !important;
+    right: 30px !important;
+}
+
+.main__slider-arrow-next-btn,
+.main__slider-arrow-prev-btn {
+    position: absolute;
+}
+
+.swiper-pagination-bullet {
+    background: #E36F59 !important;
+}
+
+.main__slider-courses-arrow-prev {
+    position: absolute;
+    top: 332px;
+    left: 45px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.main__slider-courses-arrow-next {
+    position: absolute;
+    top: 311px;
+    right: 75px;
+    z-index: 1;
+    cursor: pointer;
+}

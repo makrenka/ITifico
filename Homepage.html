@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITifico - курси для програмістів</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <svg class="background-big-blue-header" width="814" height="610" viewBox="0 0 814 610" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M788.662 240.273C693.61 77.3646 435.389 135.504 382.691 56.2937C355.756 15.7129 325.503 -31.3063 281.783 -55.6938C240.015 -79.1059 191.611 -87.4952 149.452 -84.3736C-1.2252 -73.2529 -65.2437 61.3663 -36.1621 209.447C2.48318 406.889 177.558 608.623 385.423 609.988C494.137 610.769 597.972 571.944 679.557 516.926C680.142 516.535 680.728 516.145 681.313 515.755C762.898 460.346 861.268 364.552 788.662 240.273Z"
+            fill="#F8F9FA" />
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="./images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="header__navigation">
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Блог</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Курси</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Про мене</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Підписка на сайт</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Підтримка</a>
+                        </li>
+                    </ul>
+                    <div class="header__languege-box">
+                        <div class="header__languege-box-item">
+                            <a class="header__languege-box-link" href="#">UKR</a>
+                        </div>
+                        <div class="header__languege-box-item">
+                            <a class="header__languege-box-link" href="#">ENG</a>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__information">
+            <div class="container">
+                <div class="main__information-wrapper">
+                    <div class="main__information-text">
+                        <img class="main__information-title-homepage" src="./images/title-homepage.png"
+                            alt="title-homepage">
+                        <h1><a href="#">ITifico</a> — платформа для вашого вивчення коду</h1>
+                        <p>Курси для початківців і просунутих програмістів, а також цікаві статті. Приєднуйтесь і
+                            дозвольте нам підтримати вас у вашій кар’єрі</p>
+                        <button class="main__information-btn" type="submit">
+                            Call to action
+                            <img src="./images/arrow-right.svg" alt="arrow-right">
+                        </button>
+                        <div class="main__information-text-scroll-down">
+                            <div class="main__information-text-scroll-img">
+                                <a href="#bottom">
+                                    <img src="./images/mouse.svg" alt="mouse">
+                                    <p>Гортай вниз</p>
+                                </a>
+                            </div>
+                            <div class="main__information-text-scroll-border">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__information-image">
+                        <img class="main__information-image-brackets" src="./images/straight-brackets.png"
+                            alt="straight-brackets">
+                        <img class="main__information-image-braces" src="./images/braces.png" alt="braces">
+                        <img class="main__information-image-main" src="./images/main-img.svg" alt="main-img">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <svg class="main__background-pink" width="721" height="695" viewBox="0 0 721 695" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.07"
+                d="M831.662 325.273C736.61 162.365 478.389 220.504 425.691 141.294C398.756 100.713 368.503 53.6937 324.783 29.3062C283.015 5.89412 234.611 -2.4952 192.452 0.626409C41.7748 11.7471 -22.2437 146.366 6.83788 294.447C45.4832 491.889 220.558 693.623 428.423 694.988C537.137 695.769 640.972 656.944 722.557 601.926C723.142 601.535 723.728 601.145 724.313 600.755C805.898 545.346 904.268 449.552 831.662 325.273Z"
+                fill="#E36F59" />
+        </svg>
+        <section class="main__articles">
+            <div class="container-slider">
+                <div class="main__articles-title">
+                    <div class="main__title-wrapper">
+                        <h2 class="main__heading">Статті</h2>
+                    </div>
+                    <button class="more-action" type="submit">
+                        Більше статей
+                    </button>
+                </div>
+                <div class="main__slider-wrapper">
+                    <div class="swiper main__articles-slider-list">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper main__slider-wrapper-track">
+                            <!-- Slides -->
+                            <div class="swiper-slide main__articles-slide">
+                                <img src="./images/slide1.jpg" alt="slide1">
+                                <div class="main__articles-slide-tags">
+                                    <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                    <a class="main__slide-tags-tips" href="#">Tips</a>
+                                    <a class="main__slide-tags-c" href="#">C#</a>
+                                </div>
+                                <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне навчання з
+                                        дрібницями на утримання та результати</a></h4>
+                                <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                                    учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                <div class="main__articles-slide-panel">
+                                    <div class="main__articles-slide-calendar">
+                                        <img src="./images/calendar.svg" alt="calendar">
+                                        <p class="main__articles-slide-date">5.05.2022</p>
+                                    </div>
+                                    <div class="main__articles-slide-views">
+                                        <img src="./images/eye1.svg" alt="eye1">
+                                        <p class="main__articles-slide-views-count">48</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide main__articles-slide">
+                                <img src="./images/slide2.jpg" alt="slide2">
+                                <div class="main__articles-slide-tags">
+                                    <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                    <a class="main__slide-tags-tips" href="#">Tips</a>
+                                    <a class="main__slide-tags-c" href="#">C#</a>
+                                </div>
+                                <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне навчання з
+                                        дрібницями на утримання.</a></h4>
+                                <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                                    учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                <div class="main__articles-slide-panel">
+                                    <div class="main__articles-slide-calendar">
+                                        <img src="./images/calendar.svg" alt="calendar">
+                                        <p class="main__articles-slide-date">5.05.2022</p>
+                                    </div>
+                                    <div class="main__articles-slide-views">
+                                        <img src="./images/eye1.svg" alt="eye1">
+                                        <p class="main__articles-slide-views-count">48</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide main__articles-slide">
+                                <img src="./images/slide3.jpg" alt="slide3">
+                                <div class="main__articles-slide-tags">
+                                    <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                    <a class="main__slide-tags-tips" href="#">Tips</a>
+                                    <a class="main__slide-tags-c" href="#">C#</a>
+                                </div>
+                                <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне навчання з
+                                        дрібницями на утримання та
+                                        результати</a></h4>
+                                <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                                    учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                <div class="main__articles-slide-panel">
+                                    <div class="main__articles-slide-calendar">
+                                        <img src="./images/calendar.svg" alt="calendar">
+                                        <p class="main__articles-slide-date">5.05.2022</p>
+                                    </div>
+                                    <div class="main__articles-slide-views">
+                                        <img src="./images/eye1.svg" alt="eye1">
+                                        <p class="main__articles-slide-views-count">48</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide main__articles-slide">
+                                <img src="./images/slide4.jpg" alt="slide4">
+                                <div class="main__articles-slide-tags">
+                                    <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                    <a class="main__slide-tags-tips" href="#">Tips</a>
+                                    <a class="main__slide-tags-c" href="#">C#</a>
+                                </div>
+                                <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне навчання з
+                                        дрібницями на утримання.</a></h4>
+                                <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                                    учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                <div class="main__articles-slide-panel">
+                                    <div class="main__articles-slide-calendar">
+                                        <img src="./images/calendar.svg" alt="calendar">
+                                        <p class="main__articles-slide-date">5.05.2022</p>
+                                    </div>
+                                    <div class="main__articles-slide-views">
+                                        <img src="./images/eye1.svg" alt="eye1">
+                                        <p class="main__articles-slide-views-count">48</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide main__articles-slide">
+                                <img src="./images/slide1.jpg" alt="slide1">
+                                <div class="main__articles-slide-tags">
+                                    <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                    <a class="main__slide-tags-tips" href="#">Tips</a>
+                                    <a class="main__slide-tags-c" href="#">C#</a>
+                                </div>
+                                <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне навчання з
+                                        дрібницями на утримання та результати</a></h4>
+                                <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                                    учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                <div class="main__articles-slide-panel">
+                                    <div class="main__articles-slide-calendar">
+                                        <img src="./images/calendar.svg" alt="calendar">
+                                        <p class="main__articles-slide-date">5.05.2022</p>
+                                    </div>
+                                    <div class="main__articles-slide-views">
+                                        <img src="./images/eye1.svg" alt="eye1">
+                                        <p class="main__articles-slide-views-count">48</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide main__articles-slide">
+                                <img src="./images/slide2.jpg" alt="slide2">
+                                <div class="main__articles-slide-tags">
+                                    <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                    <a class="main__slide-tags-tips" href="#">Tips</a>
+                                    <a class="main__slide-tags-c" href="#">C#</a>
+                                </div>
+                                <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне навчання з
+                                        дрібницями на утримання.</a></h4>
+                                <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                                    учнів і збільшення
+                                    залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                <div class="main__articles-slide-panel">
+                                    <div class="main__articles-slide-calendar">
+                                        <img src="./images/calendar.svg" alt="calendar">
+                                        <p class="main__articles-slide-date">5.05.2022</p>
+                                    </div>
+                                    <div class="main__articles-slide-views">
+                                        <img src="./images/eye1.svg" alt="eye1">
+                                        <p class="main__articles-slide-views-count">48</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-prev main__slider-arrow-prev">
+                        <svg class="main__slider-arrow-prev-btn" width="40" height="12" viewBox="0 0 40 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M-9.53674e-07 5.99988L6 0V4.81907L6 7.18085L6 12L-9.53674e-07 5.99988Z"
+                                fill="#23262D" />
+                            <line y1="-1" x2="34.4444" y2="-1"
+                                transform="matrix(1 7.86805e-08 9.71364e-08 -1 5.55469 5)" stroke="#23262D"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next main__slider-arrow-next">
+                        <svg class="main__slider-arrow-next-btn" width="63" height="55" viewBox="0 0 63 55" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="35.5" cy="27.5" r="26.5" transform="rotate(-180 35.5 27.5)" stroke="#E36F59"
+                                stroke-width="2" />
+                            <path d="M40 27.0001L34 33L34 28.1809L34 25.8191L34 21L40 27.0001Z" fill="#E36F59" />
+                            <line y1="-1" x2="34.4444" y2="-1"
+                                transform="matrix(-1 -1.66103e-07 -1.84559e-07 1 34.4453 28)" stroke="#E36F59"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <svg class="main__background-big-blue" width="724" height="695" viewBox="0 0 724 695" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M698.662 325.273C603.61 162.365 345.389 220.504 292.691 141.294C265.756 100.713 235.503 53.6937 191.783 29.3062C150.015 5.89412 101.611 -2.4952 59.4525 0.626409C-91.2252 11.7471 -155.244 146.366 -126.162 294.447C-87.5168 491.889 87.5582 693.623 295.423 694.988C404.137 695.769 507.972 656.944 589.557 601.926C590.142 601.535 590.728 601.145 591.313 600.755C672.898 545.346 771.268 449.552 698.662 325.273Z"
+                fill="#F8F9FA" />
+        </svg>
+        <section class="main__courses">
+            <div class="container-slider">
+                <div class="main__articles-title">
+                    <div class="main__title-wrapper">
+                        <h2 class="main__heading" id="bottom">Курси</h2>
+                    </div>
+                    <button class="more-action" type="submit">
+                        Всі курси
+                    </button>
+                </div>
+
+                <div class="main__slider-wrapper">
+                    <div class="swiper main__courses-slider-list">
+
+                        <div class="swiper-wrapper main__slider-wrapper-track">
+
+                            <div class="swiper-slide main__courses-slide-hero">
+                                <svg class="main__courses-slide-icon-hero" width="45" height="50" viewBox="0 0 45 50"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M44.4577 14.6842C44.4577 13.8488 44.2797 13.0955 43.9099 12.4654C43.5538 11.8354 43.0196 11.315 42.3075 10.9041C36.3907 7.49374 30.4603 4.08343 24.5435 0.673067C22.9411 -0.244587 21.4071 -0.217183 19.8184 0.714144C17.4626 2.09749 5.65651 8.86336 2.15031 10.9041C0.698481 11.7396 0 13.027 0 14.698V35.2969C0 36.1187 0.178039 36.8446 0.520443 37.4747C0.876578 38.1184 1.42442 38.6662 2.15031 39.0908C5.67024 41.1315 17.4626 47.8837 19.8184 49.2808C21.4071 50.2119 22.9548 50.253 24.5435 49.3218C30.4603 45.8978 36.3907 42.5012 42.3075 39.0908C43.047 38.6662 43.5812 38.1321 43.9373 37.4747C44.2797 36.8446 44.4577 36.1187 44.4577 35.2969V14.6842Z"
+                                        fill="#9770D6" />
+                                    <path
+                                        d="M28.6254 28.5858C27.3654 30.8182 24.9686 32.3386 22.2156 32.3386C19.4764 32.3386 17.0933 30.8456 15.8332 28.6269C15.2169 27.5449 14.8608 26.3122 14.8608 24.9837C14.8608 20.9159 18.1478 17.6288 22.2156 17.6288C24.9274 17.6288 27.2969 19.108 28.5707 21.2994L34.9941 17.6014C32.433 13.1913 27.6667 10.2192 22.2019 10.2192C14.039 10.2192 7.4375 16.8345 7.4375 24.9837C7.4375 27.6544 8.14965 30.1746 9.39604 32.3386C11.9435 36.7624 16.7372 39.7482 22.2156 39.7482C27.7078 39.7482 32.5015 36.7487 35.0489 32.2975L28.6254 28.5858ZM36.7472 21.4912H35.2817V28.5721H36.7472V21.4912ZM39.9932 21.4912H38.5277V28.5721H39.9932V21.4912Z"
+                                        fill="white" />
+                                    <path
+                                        d="M41.1863 22.6827H34.1055V24.1482H41.1863V22.6827ZM41.1863 25.915H34.1055V27.3805H41.1863V25.915Z"
+                                        fill="white" />
+                                </svg>
+                                <img class="main__courses-slide-background-hero"
+                                    src="./images/courses-slider/courses-slide-background-hero.png"
+                                    alt="background-hero">
+                                <h4 class="main__courses-slide-heading-hero"><a href="#">C# від нуля до героя</a></h4>
+                                <p class="main__courses-slide-text-hero">Навчаємо веб програмування, створення ігор та
+                                    розробки ПЗ. Проходьте курси, вирішуйте завдання, переглядайте новини та ставайте
+                                    справжніми майстрами програмування!</p>
+                                <a class="main__courses-slide-detail" href="#">Детальніше</a>
+                            </div>
+                            <div class="swiper-slide main__courses-slide-new">
+                                <svg class="main__courses-slide-icon-new" width="47" height="50" viewBox="0 0 47 50"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M46.0654 31.1038L41.5684 27.099C40.2664 25.9401 40.2664 24.042 41.5684 22.8831L46.0654 18.8754C47.3674 17.7165 47.0212 16.6386 45.2945 16.4694L39.3313 15.9045C37.6075 15.7432 36.6753 14.2562 37.2715 12.6077L40.4354 3.79845C41.029 2.14481 40.3024 1.54608 38.8235 2.46008L31.79 6.80896C30.3111 7.73061 28.3969 7.22565 27.5428 5.69947L24.9962 1.15296C24.1396 -0.378285 22.7257 -0.3834 21.8531 1.13226L19.4859 5.2464C18.6083 6.76965 16.6008 7.41554 15.0252 6.69404L10.8587 4.78279C9.27554 4.05369 8.06468 4.89214 8.15842 6.64717L8.3822 10.8525C8.47847 12.6076 7.18194 14.4123 5.50756 14.8653L1.48418 15.9436C-0.187681 16.3966 -0.494955 17.7142 0.80703 18.8731L5.30406 22.8808C6.60606 24.0397 6.60606 25.9378 5.30406 27.0967L0.80703 31.1045C-0.494973 32.2633 -0.151337 33.3881 1.56992 33.5966L7.02531 34.2581C8.74656 34.4663 9.70484 36.003 9.1552 37.6719L6.35869 46.1557C5.80941 47.8249 6.593 48.4705 8.09807 47.6008L14.5118 43.8873C16.0169 43.0176 18.043 43.4968 19.014 44.9499L21.6754 48.9577C22.6439 50.4133 24.0995 50.3352 24.9042 48.7807L27.2452 44.2681C28.0525 42.7111 29.9847 42.0757 31.5367 42.8542L36.052 45.112C37.609 45.8854 38.8046 45.0858 38.7109 43.3359L38.4842 39.1251C38.393 37.3701 39.6844 35.5707 41.3643 35.1173L45.3822 34.0341C47.0591 33.5811 47.3664 32.2634 46.0644 31.1046L46.0654 31.1038ZM26.0406 35.4159H20.8326V30.2079H26.0406V35.4159ZM26.0406 27.6039H20.8326V14.5839H26.0406V27.6039Z"
+                                        fill="#728796" />
+                                </svg>
+                                <img class="main__courses-slide-background-new"
+                                    src="./images/courses-slider/courses-slide-background-new.png" alt="background-new">
+                                <h4 class="main__courses-slide-heading-new"><a href="#">Новий курс у розробці!</a></h4>
+                                <p class="main__courses-slide-text-new">Підписуйся, щоб не пропустити</p>
+                                <a class="main__courses-slide-subscribe" href="#">Підписатися</a>
+                            </div>
+                            <div class="swiper-slide main__courses-slide-hero">
+                                <svg class="main__courses-slide-icon-hero" width="45" height="50" viewBox="0 0 45 50"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M44.4577 14.6842C44.4577 13.8488 44.2797 13.0955 43.9099 12.4654C43.5538 11.8354 43.0196 11.315 42.3075 10.9041C36.3907 7.49374 30.4603 4.08343 24.5435 0.673067C22.9411 -0.244587 21.4071 -0.217183 19.8184 0.714144C17.4626 2.09749 5.65651 8.86336 2.15031 10.9041C0.698481 11.7396 0 13.027 0 14.698V35.2969C0 36.1187 0.178039 36.8446 0.520443 37.4747C0.876578 38.1184 1.42442 38.6662 2.15031 39.0908C5.67024 41.1315 17.4626 47.8837 19.8184 49.2808C21.4071 50.2119 22.9548 50.253 24.5435 49.3218C30.4603 45.8978 36.3907 42.5012 42.3075 39.0908C43.047 38.6662 43.5812 38.1321 43.9373 37.4747C44.2797 36.8446 44.4577 36.1187 44.4577 35.2969V14.6842Z"
+                                        fill="#9770D6" />
+                                    <path
+                                        d="M28.6254 28.5858C27.3654 30.8182 24.9686 32.3386 22.2156 32.3386C19.4764 32.3386 17.0933 30.8456 15.8332 28.6269C15.2169 27.5449 14.8608 26.3122 14.8608 24.9837C14.8608 20.9159 18.1478 17.6288 22.2156 17.6288C24.9274 17.6288 27.2969 19.108 28.5707 21.2994L34.9941 17.6014C32.433 13.1913 27.6667 10.2192 22.2019 10.2192C14.039 10.2192 7.4375 16.8345 7.4375 24.9837C7.4375 27.6544 8.14965 30.1746 9.39604 32.3386C11.9435 36.7624 16.7372 39.7482 22.2156 39.7482C27.7078 39.7482 32.5015 36.7487 35.0489 32.2975L28.6254 28.5858ZM36.7472 21.4912H35.2817V28.5721H36.7472V21.4912ZM39.9932 21.4912H38.5277V28.5721H39.9932V21.4912Z"
+                                        fill="white" />
+                                    <path
+                                        d="M41.1863 22.6827H34.1055V24.1482H41.1863V22.6827ZM41.1863 25.915H34.1055V27.3805H41.1863V25.915Z"
+                                        fill="white" />
+                                </svg>
+                                <img class="main__courses-slide-background-hero"
+                                    src="./images/courses-slider/courses-slide-background-hero.png"
+                                    alt="background-hero">
+                                <h4 class="main__courses-slide-heading-hero"><a href="#">C# від нуля до героя</a></h4>
+                                <p class="main__courses-slide-text-hero">Навчаємо веб програмування, створення ігор та
+                                    розробки ПЗ. Проходьте курси, вирішуйте завдання, переглядайте новини та ставайте
+                                    справжніми майстрами програмування!</p>
+                                <a class="main__courses-slide-detail" href="#">Детальніше</a>
+                            </div>
+                            <div class="swiper-slide main__courses-slide-new">
+                                <svg class="main__courses-slide-icon-new" width="47" height="50" viewBox="0 0 47 50"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M46.0654 31.1038L41.5684 27.099C40.2664 25.9401 40.2664 24.042 41.5684 22.8831L46.0654 18.8754C47.3674 17.7165 47.0212 16.6386 45.2945 16.4694L39.3313 15.9045C37.6075 15.7432 36.6753 14.2562 37.2715 12.6077L40.4354 3.79845C41.029 2.14481 40.3024 1.54608 38.8235 2.46008L31.79 6.80896C30.3111 7.73061 28.3969 7.22565 27.5428 5.69947L24.9962 1.15296C24.1396 -0.378285 22.7257 -0.3834 21.8531 1.13226L19.4859 5.2464C18.6083 6.76965 16.6008 7.41554 15.0252 6.69404L10.8587 4.78279C9.27554 4.05369 8.06468 4.89214 8.15842 6.64717L8.3822 10.8525C8.47847 12.6076 7.18194 14.4123 5.50756 14.8653L1.48418 15.9436C-0.187681 16.3966 -0.494955 17.7142 0.80703 18.8731L5.30406 22.8808C6.60606 24.0397 6.60606 25.9378 5.30406 27.0967L0.80703 31.1045C-0.494973 32.2633 -0.151337 33.3881 1.56992 33.5966L7.02531 34.2581C8.74656 34.4663 9.70484 36.003 9.1552 37.6719L6.35869 46.1557C5.80941 47.8249 6.593 48.4705 8.09807 47.6008L14.5118 43.8873C16.0169 43.0176 18.043 43.4968 19.014 44.9499L21.6754 48.9577C22.6439 50.4133 24.0995 50.3352 24.9042 48.7807L27.2452 44.2681C28.0525 42.7111 29.9847 42.0757 31.5367 42.8542L36.052 45.112C37.609 45.8854 38.8046 45.0858 38.7109 43.3359L38.4842 39.1251C38.393 37.3701 39.6844 35.5707 41.3643 35.1173L45.3822 34.0341C47.0591 33.5811 47.3664 32.2634 46.0644 31.1046L46.0654 31.1038ZM26.0406 35.4159H20.8326V30.2079H26.0406V35.4159ZM26.0406 27.6039H20.8326V14.5839H26.0406V27.6039Z"
+                                        fill="#728796" />
+                                </svg>
+                                <img class="main__courses-slide-background-new"
+                                    src="./images/courses-slider/courses-slide-background-new.png" alt="background-new">
+                                <h4 class="main__courses-slide-heading-new"><a href="#">Новий курс у розробці!</a></h4>
+                                <p class="main__courses-slide-text-new">Підписуйся, щоб не пропустити</p>
+                                <a class="main__courses-slide-subscribe" href="#">Підписатися</a>
+                            </div>
+                            <div class="swiper-slide main__courses-slide-hero">
+                                <svg class="main__courses-slide-icon-hero" width="45" height="50" viewBox="0 0 45 50"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M44.4577 14.6842C44.4577 13.8488 44.2797 13.0955 43.9099 12.4654C43.5538 11.8354 43.0196 11.315 42.3075 10.9041C36.3907 7.49374 30.4603 4.08343 24.5435 0.673067C22.9411 -0.244587 21.4071 -0.217183 19.8184 0.714144C17.4626 2.09749 5.65651 8.86336 2.15031 10.9041C0.698481 11.7396 0 13.027 0 14.698V35.2969C0 36.1187 0.178039 36.8446 0.520443 37.4747C0.876578 38.1184 1.42442 38.6662 2.15031 39.0908C5.67024 41.1315 17.4626 47.8837 19.8184 49.2808C21.4071 50.2119 22.9548 50.253 24.5435 49.3218C30.4603 45.8978 36.3907 42.5012 42.3075 39.0908C43.047 38.6662 43.5812 38.1321 43.9373 37.4747C44.2797 36.8446 44.4577 36.1187 44.4577 35.2969V14.6842Z"
+                                        fill="#9770D6" />
+                                    <path
+                                        d="M28.6254 28.5858C27.3654 30.8182 24.9686 32.3386 22.2156 32.3386C19.4764 32.3386 17.0933 30.8456 15.8332 28.6269C15.2169 27.5449 14.8608 26.3122 14.8608 24.9837C14.8608 20.9159 18.1478 17.6288 22.2156 17.6288C24.9274 17.6288 27.2969 19.108 28.5707 21.2994L34.9941 17.6014C32.433 13.1913 27.6667 10.2192 22.2019 10.2192C14.039 10.2192 7.4375 16.8345 7.4375 24.9837C7.4375 27.6544 8.14965 30.1746 9.39604 32.3386C11.9435 36.7624 16.7372 39.7482 22.2156 39.7482C27.7078 39.7482 32.5015 36.7487 35.0489 32.2975L28.6254 28.5858ZM36.7472 21.4912H35.2817V28.5721H36.7472V21.4912ZM39.9932 21.4912H38.5277V28.5721H39.9932V21.4912Z"
+                                        fill="white" />
+                                    <path
+                                        d="M41.1863 22.6827H34.1055V24.1482H41.1863V22.6827ZM41.1863 25.915H34.1055V27.3805H41.1863V25.915Z"
+                                        fill="white" />
+                                </svg>
+                                <img class="main__courses-slide-background-hero"
+                                    src="./images/courses-slider/courses-slide-background-hero.png"
+                                    alt="background-hero">
+                                <h4 class="main__courses-slide-heading-hero"><a href="#">C# від нуля до героя</a></h4>
+                                <p class="main__courses-slide-text-hero">Навчаємо веб програмування, створення ігор та
+                                    розробки ПЗ. Проходьте курси, вирішуйте завдання, переглядайте новини та ставайте
+                                    справжніми майстрами програмування!</p>
+                                <a class="main__courses-slide-detail" href="#">Детальніше</a>
+                            </div>
+                            <div class="swiper-slide main__courses-slide-new">
+                                <svg class="main__courses-slide-icon-new" width="47" height="50" viewBox="0 0 47 50"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M46.0654 31.1038L41.5684 27.099C40.2664 25.9401 40.2664 24.042 41.5684 22.8831L46.0654 18.8754C47.3674 17.7165 47.0212 16.6386 45.2945 16.4694L39.3313 15.9045C37.6075 15.7432 36.6753 14.2562 37.2715 12.6077L40.4354 3.79845C41.029 2.14481 40.3024 1.54608 38.8235 2.46008L31.79 6.80896C30.3111 7.73061 28.3969 7.22565 27.5428 5.69947L24.9962 1.15296C24.1396 -0.378285 22.7257 -0.3834 21.8531 1.13226L19.4859 5.2464C18.6083 6.76965 16.6008 7.41554 15.0252 6.69404L10.8587 4.78279C9.27554 4.05369 8.06468 4.89214 8.15842 6.64717L8.3822 10.8525C8.47847 12.6076 7.18194 14.4123 5.50756 14.8653L1.48418 15.9436C-0.187681 16.3966 -0.494955 17.7142 0.80703 18.8731L5.30406 22.8808C6.60606 24.0397 6.60606 25.9378 5.30406 27.0967L0.80703 31.1045C-0.494973 32.2633 -0.151337 33.3881 1.56992 33.5966L7.02531 34.2581C8.74656 34.4663 9.70484 36.003 9.1552 37.6719L6.35869 46.1557C5.80941 47.8249 6.593 48.4705 8.09807 47.6008L14.5118 43.8873C16.0169 43.0176 18.043 43.4968 19.014 44.9499L21.6754 48.9577C22.6439 50.4133 24.0995 50.3352 24.9042 48.7807L27.2452 44.2681C28.0525 42.7111 29.9847 42.0757 31.5367 42.8542L36.052 45.112C37.609 45.8854 38.8046 45.0858 38.7109 43.3359L38.4842 39.1251C38.393 37.3701 39.6844 35.5707 41.3643 35.1173L45.3822 34.0341C47.0591 33.5811 47.3664 32.2634 46.0644 31.1046L46.0654 31.1038ZM26.0406 35.4159H20.8326V30.2079H26.0406V35.4159ZM26.0406 27.6039H20.8326V14.5839H26.0406V27.6039Z"
+                                        fill="#728796" />
+                                </svg>
+                                <img class="main__courses-slide-background-new"
+                                    src="./images/courses-slider/courses-slide-background-new.png" alt="background-new">
+                                <h4 class="main__courses-slide-heading-new"><a href="#">Новий курс у розробці!</a></h4>
+                                <p class="main__courses-slide-text-new">Підписуйся, щоб не пропустити</p>
+                                <a class="main__courses-slide-subscribe" href="#">Підписатися</a>
+                            </div>
+
+
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-prev-2 main__slider-courses-arrow-prev">
+                        <svg class="main__slider-arrow-prev-btn" width="40" height="12" viewBox="0 0 40 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M-9.53674e-07 5.99988L6 0V4.81907L6 7.18085L6 12L-9.53674e-07 5.99988Z"
+                                fill="#23262D" />
+                            <line y1="-1" x2="34.4444" y2="-1"
+                                transform="matrix(1 7.86805e-08 9.71364e-08 -1 5.55469 5)" stroke="#23262D"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next-2 main__slider-courses-arrow-next">
+                        <svg class="main__slider-arrow-next-btn" width="63" height="55" viewBox="0 0 63 55" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="35.5" cy="27.5" r="26.5" transform="rotate(-180 35.5 27.5)" stroke="#E36F59"
+                                stroke-width="2" />
+                            <path d="M40 27.0001L34 33L34 28.1809L34 25.8191L34 21L40 27.0001Z" fill="#E36F59" />
+                            <line y1="-1" x2="34.4444" y2="-1"
+                                transform="matrix(-1 -1.66103e-07 -1.84559e-07 1 34.4453 28)" stroke="#E36F59"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <svg class="main__background-small-blue-courses" width="519" height="492" viewBox="0 0 519 492" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M516.592 410.371C532.276 240.097 469.982 14.9309 331.017 2.13116C192.053 -10.6686 16.3976 73.9306 0.714037 244.204C-9.98967 360.412 114.801 407.346 253.766 420.146C392.73 432.945 500.909 580.644 516.592 410.371Z"
+                fill="#F8F9FA" />
+        </svg>
+        <section class="main__rubric">
+            <div class="main__rubric-title-wrapper">
+                <h2 class="main__rubric-heading">Чому програмувати це круто</h2>
+            </div>
+            <div class="container">
+                <div class="main__rubric-frames-wrapper">
+                    <div class="main__rubric-frame1">
+                        <img src="./images/rubrics-frames/rubrics-frame1.svg" alt="rubrics-frame1">
+                        <h4 class="main__rubric-frame-title frame-title1">Ви можете реалізовувати свої ідеї за допомогою
+                            коду</h4>
+                    </div>
+                    <div class="main__rubric-frame2">
+                        <img src="./images/rubrics-frames/rubrics-frame2.svg" alt="rubrics-frame2">
+                        <h4 class="main__rubric-frame-title frame-title2">Ви можете кодувати будь-де</h4>
+                    </div>
+                    <div class="main__rubric-frame3">
+                        <img src="./images/rubrics-frames/rubrics-frame3.svg" alt="rubrics-frame3">
+                        <h4 class="main__rubric-frame-title frame-title3">Програмісти затребувані скрізь</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <svg class="main__background-pink-footer" width="639" height="610" viewBox="0 0 639 610" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.07"
+                d="M615.859 285.457C532.442 142.49 305.83 193.513 259.582 123.998C235.945 88.3847 209.395 47.1211 171.027 25.7188C134.372 5.17263 91.8925 -2.18976 54.8946 0.549731C-77.3388 10.3092 -133.521 128.45 -107.999 258.404C-74.0844 431.677 79.5599 608.717 261.98 609.916C357.387 610.601 448.512 576.528 520.109 528.245C520.623 527.902 521.137 527.56 521.651 527.217C593.249 478.591 679.577 394.523 615.859 285.457Z"
+                fill="#E36F59" />
+        </svg>
+        <div class="container">
+            <form method="post" action="#" class="main__form-subscription">
+                <div class="main__subscription-wrapper-heading">
+                    <h2 class="main__subscription-heading">Кодування ніколи не було простіше!</h2>
+                    <p class="main__subscription-text">Не хочете пропускати жодних новин, тоді підпишіться на нашу
+                        розсилку.</p>
+                </div>
+                <div class="main__subscription-wrapper-inputs">
+                    <div class="main__subscription-wrapper-user">
+                        <input class="main__subscription-input" type="text" id="user-input" placeholder="Повне ім’я">
+                        <button class="main__subscription-input-btn-user" id="user-btn"></button>
+                    </div>
+                    <div class="main__subscription-wrapper-mail">
+                        <input class="main__subscription-input" type="text" id="mail-input" placeholder="Ваша Email адреса">
+                        <button class="main__subscription-input-btn-mail" id="mail-btn"></button>
+                    </div>
+                    <button class="main__subscription-btn" name="subscribe">
+                        <div class="main__subscription-btn-wrapper">
+                            <p>Підписатися</p>
+                            <object data="./images/icons/subscribe-icon.svg">Your browser does not support SVG</object>
+                        </div>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <svg class="main__background-small-blue-form" width="519" height="492" viewBox="0 0 519 492" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M516.592 410.371C532.276 240.097 469.982 14.9309 331.017 2.13116C192.053 -10.6686 16.3976 73.9306 0.714037 244.204C-9.98967 360.412 114.801 407.346 253.766 420.146C392.73 432.945 500.909 580.644 516.592 410.371Z"
+                fill="#F8F9FA" />
+        </svg>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="footer__author">Made with ❤️ by Stanislav Zghurskyi ©2022</p>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-items"><a href="#">Linkedin</a></li>
+                        <li class="footer__navigation-items"><a href="#">Telegram</a></li>
+                        <li class="footer__navigation-items"><a href="#">Gmail</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/components/swiper-slider.js"></script>
+    <script src="./js/components/form-subscription.js"></script>
+
+</body>
+
+</html>

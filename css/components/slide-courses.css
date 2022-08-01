@@ -1,0 +1,132 @@
+.main__courses-slide-hero {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    width: 600px;
+    height: 266px !important;
+    background: #CCC1F6;
+    border-radius: 8px;
+    position: relative;
+}
+
+.main__courses-slide-background-hero {
+    position: absolute;
+    top: 14px;
+    right: 30px;
+}
+
+.main__courses-slide-icon-hero {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.main__courses-slide-heading-hero {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.main__courses-slide-heading-hero a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.main__courses-slide-heading-hero a:hover {
+    color: var(--link-active-color);
+}
+
+.main__courses-slide-text-hero {
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+}
+
+.main__courses-slide-detail {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: var(--link-color);
+    position: absolute;
+    right: 29px;
+    bottom: 26px;
+    transition: color .3s;
+}
+
+.main__courses-slide-detail:hover {
+    color: var(--link-active-color);
+}
+
+.main__courses-slide-new {
+    width: 600px;
+    height: 266px !important;
+    background: #E7EEF3;
+    border-radius: 8px;
+    position: relative;
+}
+
+.main__courses-slide-icon-new {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+.main__courses-slide-background-new {
+    position: absolute;
+    top: 14px;
+    right: 30px;
+}
+
+.main__courses-slide-heading-new {
+    margin-top: 54px;
+    margin-left: 20px;
+}
+
+.main__courses-slide-heading-new a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.main__courses-slide-heading-new a:hover {
+    color: var(--link-active-color);
+}
+
+.main__courses-slide-text-new {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--black);
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.main__courses-slide-subscribe {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #23262D;
+    position: absolute;
+    right: 30px;
+    bottom: 28px;
+    transition: color .3s;
+}
+
+.main__courses-slide-subscribe:hover {
+    color: var(--link-active-color);
+}

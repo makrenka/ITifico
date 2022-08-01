@@ -3,6 +3,8 @@
     --black: #23262D;
     --txt: #606268;
     --white: #FFFFFF;
+    --border: #E2E7EB;
+    --gray2: #C4CACF;
 
     --link-color: var(--black);
     --link-active-color: var(--red);

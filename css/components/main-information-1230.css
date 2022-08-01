@@ -1,0 +1,122 @@
+.main__information {
+    margin-top: 58px;
+
+}
+
+.main__information-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__information-text {
+    max-width: 654px;
+    position: relative;
+}
+
+.main__information-title-homepage {
+    position: absolute;
+    left: -191px;
+    top: 24px;
+}
+
+.main__information-text h1 {
+    margin: 28px 0 22px 0;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+    max-width: 636px;
+}
+
+.main__information-text h1 a {
+    color: var(--link-active-color);
+    text-decoration: none;
+}
+
+.main__information-text p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--txt);
+    max-width: 512px;
+}
+
+.main__information-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 21px 35px 20px;
+    gap: 20px;
+    background: var(--red);
+    border-color: var(--red);
+    border-radius: 8px;
+    margin-top: 49px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+    cursor: pointer;    
+}
+
+.main__information-btn:hover {
+    box-shadow: 0px 14px 14px rgba(190, 39, 39, 0.14);
+}
+
+.main__information-btn:active {
+    background: #C7523C;
+}
+
+.main__information-text-scroll-down {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 77px;
+}
+
+.main__information-text-scroll-img a {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    width: 133px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--link-color);
+}
+
+.main__information-text-scroll-img a img {
+    margin-right: 13px;
+}
+
+.main__information-text-scroll-border {
+    border: 1px solid #D8DFDA;
+    margin-top: 5px;
+    width: 523px;
+}
+
+.main__information-image {
+    position: relative;
+}
+
+.main__information-image-brackets {
+    position: absolute;
+    left: -92px;
+    top: 380px;
+    z-index: -1;
+}
+
+.main__information-image-braces {
+    position: absolute;
+    left: 461px;
+    top: 4px;
+    z-index: -1;
+}
