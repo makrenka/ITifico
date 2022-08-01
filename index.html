@@ -297,7 +297,7 @@
             <div class="container-slider">
                 <div class="main__articles-title">
                     <div class="main__title-wrapper">
-                        <h2 class="main__heading">Курси</h2>
+                        <h2 class="main__heading" id="bottom">Курси</h2>
                     </div>
                     <button class="more-action" type="submit">
                         Всі курси
@@ -489,12 +489,12 @@
                 </div>
                 <div class="main__subscription-wrapper-inputs">
                     <div class="main__subscription-wrapper-user">
-                        <input class="main__subscription-input" type="text" name="user" placeholder="Повне ім’я">
-                        <button class="main__subscription-input-btn-user" name="user"></button>
+                        <input class="main__subscription-input" type="text" id="user-input" placeholder="Повне ім’я">
+                        <button class="main__subscription-input-btn-user" id="user-btn"></button>
                     </div>
                     <div class="main__subscription-wrapper-mail">
-                        <input class="main__subscription-input" type="text" name="mail" placeholder="Ваша Email адреса">
-                        <button class="main__subscription-input-btn-mail" name="mail"></button>
+                        <input class="main__subscription-input" type="text" id="mail-input" placeholder="Ваша Email адреса">
+                        <button class="main__subscription-input-btn-mail" id="mail-btn"></button>
                     </div>
                     <button class="main__subscription-btn" name="subscribe">
                         <div class="main__subscription-btn-wrapper">
@@ -516,19 +516,20 @@
         <div class="container">
             <div class="footer__wrapper">
                 <p class="footer__author">Made with ❤️ by Stanislav Zghurskyi ©2022</p>
-            <nav class="footer__navigation">
-                <ul class="footer__navigation-list">
-                    <li class="footer__navigation-items"><a href="#">Linkedin</a></li>
-                    <li class="footer__navigation-items"><a href="#">Telegram</a></li>
-                    <li class="footer__navigation-items"><a href="#">Gmail</a></li>
-                </ul>                
-            </nav>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-items"><a href="#">Linkedin</a></li>
+                        <li class="footer__navigation-items"><a href="#">Telegram</a></li>
+                        <li class="footer__navigation-items"><a href="#">Gmail</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>        
+        </div>
     </footer>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/components/swiper-slider.js"></script>
+    <script src="./js/components/form-subscription.js"></script>
 
 </body>
 
