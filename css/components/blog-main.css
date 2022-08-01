@@ -1,0 +1,42 @@
+.main__blog {
+    position: relative;
+    margin-top: 31px;
+}
+
+.main__blog-title-img {
+    position: absolute;
+    top: 3px;
+    left: -159px;
+}
+
+.main__blog-breadcrump-list {
+    display: flex;
+    align-items: center;
+}
+
+.main__blog-breadcrump-item {
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--link-breadcrump);
+}
+
+.main__blog-breadcrump-item-icon {
+    margin-right: 10px;
+}
+
+.main__blog-breadcrump-item-link {
+    margin-right: 10px;  
+    color: var(--link-breadcrump);  
+    opacity: 0.6;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.main__blog-breadcrump-item-link:hover {
+    color: var(--link-active-color);
+}

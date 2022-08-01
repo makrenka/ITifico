@@ -8,6 +8,7 @@
 
     --link-color: var(--black);
     --link-active-color: var(--red);
+    --link-breadcrump: #212836;
 
     --article-title: var(--black);
     --article-text: var(--txt);
