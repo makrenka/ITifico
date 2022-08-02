@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ITifico - курси для програмістів</title>
-        <link rel="stylesheet" href="./css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITifico - курси для програмістів. Блог</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
 <body>
     <svg class="background-big-blue-header" width="814" height="610" viewBox="0 0 814 610" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -19,14 +21,14 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <a href="#">
+                    <a href="./Homepage.html">
                         <img src="./images/logo.svg" alt="logo">
                     </a>
                 </div>
                 <nav class="header__navigation">
                     <ul class="header__navigation-list">
                         <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Блог</a>
+                            <a class="header__navigation-link" href="./Blog-catalog.html">Блог</a>
                         </li>
                         <li class="header__navigation-list-item">
                             <a class="header__navigation-link" href="#">Курси</a>
@@ -58,20 +60,55 @@
         <div class="container">
             <div class="main__blog">
                 <img class="main__blog-title-img" src="./images/title-blog.png" alt="title-blog">
-                <div class="main__blog-breadcrump">
+                <nav class="main__blog-breadcrump">
                     <ul class="main__blog-breadcrump-list">
                         <li class="main__blog-breadcrump-item">
-                            <object class="main__blog-breadcrump-item-icon" data="./images/icons/home-blog-icon.svg"></object>
-                            <a class="main__blog-breadcrump-item-link" href="#">Головна</a>
+                            <object class="main__blog-breadcrump-item-icon"
+                                data="./images/icons/home-blog-icon.svg"></object>
+                            <a class="main__blog-breadcrump-item-link" href="./Homepage.html">Головна</a>
                         </li>
                         <li class="main__blog-breadcrump-item">
-                            <object class="main__blog-breadcrump-item-icon" data="./images/icons/next-breadcrump-icon.svg"></object>
+                            <object class="main__blog-breadcrump-item-icon"
+                                data="./images/icons/next-breadcrump-icon.svg"></object>
                             Блог
                         </li>
                     </ul>
-                </div>
+                </nav>
+                <h2 class="main__blog-heading">Блог</h2>
+                <nav class="main__blog-navigation">
+                    <ul class="main__blog-navigation-tags">
+                        <li class="main__blog-tag-frontend"><a href="#">Frontend</a></li>
+                        <li class="main__blog-tag-backend"><a href="#">Backend</a></li>
+                        <li class="main__blog-tag-javascript"><a href="#">JavaScript</a></li>
+                        <li class="main__blog-tag-c"><a href="#">C#</a></li>
+                        <li class="main__blog-tag-selfeducation"><a href="#">Self-education</a></li>
+                        <li class="main__blog-tag-cloud"><a href="#">Cloud</a></li>
+                        <li class="main__blog-tag-tips"><a href="#">Tips</a></li>
+                        <li class="main__blog-tag-softskills"><a href="#">Soft skills</a></li>
+                        <li class="main__blog-tag-sql"><a href="#">Sql</a></li>
+                        <li class="main__blog-tag-react"><a href="#">React</a></li>
+                    </ul>
+                    <div class="main__blog-navigation-sort">
+                        <p class="main__blog-navigation-sort-legend">Сортувати за:</p>
+                        <object class="main__blog-navigation-sort-arrow"
+                            data="./images/drop-down-list/arrow-down-sign-to-navigate.svg"></object>
+                        <ul class="main__blog-navigation-sort-list">
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">по даті</a>
+                            </li>
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">по даті</a>
+                            </li>
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">за
+                                    популярністю</a></li>
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">за
+                                    популярністю</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+
             </div>
         </div>
     </main>
 </body>
+
 </html>
