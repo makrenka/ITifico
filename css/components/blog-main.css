@@ -134,6 +134,7 @@
     width: 232px;
     border: 2px solid var(--border);
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .main__blog-navigation-sort--active {   
@@ -164,6 +165,10 @@
 .main__blog-navigation-sort-wrapper-svg {
     margin-right: 6px;
     padding: 5px;
+}
+
+.main__blog-navigation-sort-arrow--active {
+    transform: rotate(180deg);
 }
 
 .main__blog-navigation-sort-list {
@@ -200,4 +205,13 @@
     color: var(--link-color);
     text-decoration: none;
     padding-left: 25px;
+    display: block;
+}
+
+.main__blog-sort-item-link:hover {
+    color: var(--white);
+}
+
+.main__blog-slider-list {
+    margin-top: 70px;
 }

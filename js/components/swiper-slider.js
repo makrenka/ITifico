@@ -45,3 +45,4 @@ new Swiper('.main__courses-slider-list', {
   },
 
 });
+

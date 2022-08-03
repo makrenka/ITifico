@@ -8,6 +8,10 @@
     border-radius: 8px;
 }
 
+.main__articles-slide-img:hover ~ .main__articles-slide-heading a {
+    color: var(--link-active-color);
+}
+
 .main__articles-slide-tags {
     display: flex;
     justify-content: start;

@@ -95,23 +95,8 @@
     outline: none;
 }
 
-.main__subscription-input--active {
-    width: 330px;
-    height: 40px;
-    margin: 10px 0;
-    background: var(--white);
-    padding-left: 30px;
-    border: none;
-    border-right: 2px solid var(--gray2);
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    color: var(--txt);
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    outline: none;
+.main__subscription-input--active {   
+    border-color: var(--gray2);    
 }
 
 .main__subscription-input-btn-user {
