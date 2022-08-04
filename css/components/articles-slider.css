@@ -1,7 +1,5 @@
 .main__slider-wrapper {
-    position: relative;
-    max-width: 1260px;
-    margin: 0 auto;
+    position: relative;    
 }
 
 .main__slider-wrapper-track {

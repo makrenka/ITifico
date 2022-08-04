@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>ITifico - курси для програмістів. Блог</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -116,22 +116,52 @@
             </div>
         </div>
         <div class="container-slider">
-            <div class="main__slider-wrapper">
-                <!-- <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div> -->
-                <div class="mySwiper main__blog-slider-list">
+            <!-- Slider main container -->
+            <div class="swiper main__swiper-blog">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper main__swiper-wrapper-blog">
+                    <!-- Slides -->
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 1</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 2</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 3</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 1</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 2</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 3</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 1</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 2</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 3</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 1</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 2</div>
+                    <div class="swiper-slide main__swiper-slide-blog">Slide 3</div>                    
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination main__swiper-pagination-blog"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev main__swiper-button-prev-blog">
+                    <svg class="main__slider-arrow-prev-btn" width="40" height="12" viewBox="0 0 40 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-9.53674e-07 5.99988L6 0V4.81907L6 7.18085L6 12L-9.53674e-07 5.99988Z"
+                            fill="#23262D" />
+                        <line y1="-1" x2="34.4444" y2="-1" transform="matrix(1 7.86805e-08 9.71364e-08 -1 5.55469 5)"
+                            stroke="#23262D" stroke-width="2" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next main__swiper-button-next-blog">
+                    <svg class="main__slider-arrow-next-btn" width="63" height="55" viewBox="0 0 63 55" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35.5" cy="27.5" r="26.5" transform="rotate(-180 35.5 27.5)" stroke="#E36F59"
+                            stroke-width="2" />
+                        <path d="M40 27.0001L34 33L34 28.1809L34 25.8191L34 21L40 27.0001Z" fill="#E36F59" />
+                        <line y1="-1" x2="34.4444" y2="-1" transform="matrix(-1 -1.66103e-07 -1.84559e-07 1 34.4453 28)"
+                            stroke="#E36F59" stroke-width="2" />
+                    </svg>
+                </div>
+
+            </div>
+            <!-- <div class="main__slider-wrapper"> -->
+
+            <!-- <div class="mySwiper main__blog-slider-list">
                     
                     <div class="swiper-wrapper main__slider-wrapper-track">
                         
@@ -310,14 +340,14 @@
                             transform="matrix(-1 -1.66103e-07 -1.84559e-07 1 34.4453 28)" stroke="#E36F59"
                             stroke-width="2" />
                     </svg>
-                </div>
-            </div>
+                </div> -->
+            <!-- </div> -->
         </div>
     </main>
 
-    <script src="./js/components/blog-dropdown.js"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/components/swiper-blog-slider.js"></script>
+    <script src="./js/components/blog-dropdown.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/components/swiper-slider.js"></script>
 </body>
 
 </html>
