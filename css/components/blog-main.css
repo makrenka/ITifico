@@ -186,6 +186,7 @@
 
 .main__blog-navigation-sort-list--active {
     display: block;    
+    z-index: 2;
 }
 
 .main__blog-sort-item {
@@ -210,8 +211,4 @@
 
 .main__blog-sort-item-link:hover {
     color: var(--white);
-}
-
-.main__blog-slider-list {
-    margin-top: 70px;
 }

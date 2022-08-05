@@ -47,11 +47,9 @@ new Swiper('.main__courses-slider-list', {
 });
 
 new Swiper('.main__swiper-blog', {
-  // Optional parameters
-  // direction: 'horizontal', 
-  spaceBetween: 20,   
-  slidesPerView: 4,    
-  width: 1230,
+  // Optional parameters  
+  spaceBetween: 30,   
+  slidesPerView: 4,     
   grid: {
       fill: 'row',
       rows: 2,
@@ -65,8 +63,8 @@ new Swiper('.main__swiper-blog', {
 
   // Navigation arrows
   navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next-3',
+      prevEl: '.swiper-button-prev-3',
   },
 
 
