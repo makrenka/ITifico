@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITifico - курси для програмістів. Блог</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -14,6 +15,18 @@
         xmlns="http://www.w3.org/2000/svg">
         <path
             d="M788.662 240.273C693.61 77.3646 435.389 135.504 382.691 56.2937C355.756 15.7129 325.503 -31.3063 281.783 -55.6938C240.015 -79.1059 191.611 -87.4952 149.452 -84.3736C-1.2252 -73.2529 -65.2437 61.3663 -36.1621 209.447C2.48318 406.889 177.558 608.623 385.423 609.988C494.137 610.769 597.972 571.944 679.557 516.926C680.142 516.535 680.728 516.145 681.313 515.755C762.898 460.346 861.268 364.552 788.662 240.273Z"
+            fill="#F8F9FA" />
+    </svg>
+    <svg class="background-pink-main-blog-individual" width="827" height="695" viewBox="0 0 827 695" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.07"
+            d="M831.662 325.273C736.61 162.365 478.389 220.504 425.691 141.294C398.756 100.713 368.503 53.6937 324.783 29.3062C283.015 5.89412 234.611 -2.4952 192.452 0.626409C41.7748 11.7471 -22.2437 146.366 6.83788 294.447C45.4832 491.889 220.558 693.623 428.423 694.988C537.137 695.769 640.972 656.944 722.557 601.926C723.142 601.535 723.728 601.145 724.313 600.755C805.898 545.346 904.268 449.552 831.662 325.273Z"
+            fill="#E36F59" />
+    </svg>
+    <svg class="background-big-blue-blog-individual" width="814" height="695" viewBox="0 0 814 695" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M788.662 325.273C693.61 162.365 435.389 220.504 382.691 141.294C355.756 100.713 325.503 53.6937 281.783 29.3062C240.015 5.89412 191.611 -2.4952 149.452 0.626409C-1.2252 11.7471 -65.2437 146.366 -36.1621 294.447C2.48318 491.889 177.558 693.623 385.423 694.988C494.137 695.769 597.972 656.944 679.557 601.926C680.142 601.535 680.728 601.145 681.313 600.755C762.898 545.346 861.268 449.552 788.662 325.273Z"
             fill="#F8F9FA" />
     </svg>
     <header class="header">
@@ -56,168 +69,467 @@
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="main__blog-wrapper">
-                <div class="container-blog-left">
-                    <img class="main__blog-title-img" src="./images/title-blog.png" alt="title-blog">
-                    <nav class="main__blog-breadcrump">
-                        <ul class="main__blog-breadcrump-list">
-                            <li class="main__blog-breadcrump-item">
-                                <object class="main__blog-breadcrump-item-icon"
-                                    data="./images/icons/home-blog-icon.svg"></object>
-                                <a class="main__blog-breadcrump-item-link" href="./Homepage.html">Головна</a>
+        <div class="container-slider">
+            <div class="main__blog-individual-wrapper">
+                <div class="main__blog-individual-wrapper-left">
+                    <div class="container-blog-individual-left">
+                        <img class="main__blog-title-img" src="./images/title-blog.png" alt="title-blog">
+                        <nav class="main__blog-breadcrump">
+                            <ul class="main__blog-breadcrump-list">
+                                <li class="main__blog-breadcrump-item">
+                                    <object class="main__blog-breadcrump-item-icon"
+                                        data="./images/icons/home-blog-icon.svg"></object>
+                                    <a class="main__blog-breadcrump-item-link" href="./Homepage.html">Головна</a>
+                                </li>
+                                <li class="main__blog-breadcrump-item">
+                                    <object class="main__blog-breadcrump-item-icon"
+                                        data="./images/icons/next-breadcrump-icon.svg"></object>
+                                    <a class="main__blog-breadcrump-item-link" href="./Blog-catalog.html">Блог</a>
+                                </li>
+                                <li class="main__blog-breadcrump-item">
+                                    <object class="main__blog-breadcrump-item-icon"
+                                        data="./images/icons/next-breadcrump-icon.svg"></object>
+                                    Наскільки ефективне навчання з дрібницями на утримання та результати
+                                </li>
+                            </ul>
+                        </nav>
+                        <h2 class="main__blog-heading">Наскільки ефективне навчання з дрібницями на утримання та
+                            результати
+                        </h2>
+                        <div class="main__blog-date-views">
+                            <div class="main__blog-date">
+                                <object data="./images/blog-individual/calendar-blog.svg"></object>
+                                <p class="main__blog-date-views-text">16.01.2020</p>
+                            </div>
+                            <div class="main__blog-views">
+                                <object data="./images/blog-individual/eye-blog.svg"></object>
+                                <p class="main__blog-date-views-text">48</p>
+                            </div>
+                        </div>
+                        <img class="main__blog-main-img" src="./images/blog-individual/blog-main-img.jpg"
+                            alt="Main image">
+                        <h3 class="main__blog-heading-h3">Які можуть виникнути проблеми?</h3>
+                        <ul class="main__blog-individual-list-discs">
+                            <li class="main__blog-individual-list-disc-item">Ідейні міркування вищого порядку, а також
+                                подальший розвиток</li>
+                            <li class="main__blog-individual-list-disc-item">Різних форм діяльності забезпечує широкому
+                                колу
+                                (фахівців) участь у формуванні позицій,
                             </li>
-                            <li class="main__blog-breadcrump-item">
-                                <object class="main__blog-breadcrump-item-icon"
-                                    data="./images/icons/next-breadcrump-icon.svg"></object>
-                                <a class="main__blog-breadcrump-item-link" href="./Blog-catalog.html">Блог</a>
+                            <li class="main__blog-individual-list-disc-item">Займаних учасниками щодо поставлених
+                                завдань.
                             </li>
-                            <li class="main__blog-breadcrump-item">
-                                <object class="main__blog-breadcrump-item-icon"
-                                    data="./images/icons/next-breadcrump-icon.svg"></object>
-                                Наскільки ефективне навчання з дрібницями на утримання та результати
+                            <li class="main__blog-individual-list-disc-item">Завдання організації, особливо ж
+                                консультація з
+                                широким активом є цікавий експеримент перевірки
                             </li>
                         </ul>
-                    </nav>
-                    <h2 class="main__blog-heading">Наскільки ефективне навчання з дрібницями на утримання та результати
-                    </h2>
-                    <div class="main__blog-date-views">
-                        <div class="main__blog-date">
-                            <object data="./images/blog-individual/calendar-blog.svg"></object>
-                            <p class="main__blog-date-views-text">16.01.2020</p>
-                        </div>
-                        <div class="main__blog-views">
-                            <object data="./images/blog-individual/eye-blog.svg"></object>
-                            <p class="main__blog-date-views-text">48</p>
-                        </div>
-                    </div>
-                    <img class="main__blog-main-img" src="./images/blog-individual/blog-main-img.jpg" alt="Main image">
-                    <h3 class="main__blog-heading-h3">Які можуть виникнути проблеми?</h3>
-                    <ul class="main__blog-individual-list-discs">
-                        <li class="main__blog-individual-list-disc-item">Ідейні міркування вищого порядку, а також
-                            подальший розвиток</li>
-                        <li class="main__blog-individual-list-disc-item">Різних форм діяльності забезпечує широкому колу
-                            (фахівців) участь у формуванні позицій,
-                        </li>
-                        <li class="main__blog-individual-list-disc-item">Займаних учасниками щодо поставлених завдань.
-                        </li>
-                        <li class="main__blog-individual-list-disc-item">Завдання організації, особливо ж консультація з
-                            широким активом є цікавий експеримент перевірки
-                        </li>
-                    </ul>
-                    <p class="main__blog-individual-text">Ідейні міркування вищого порядку, а також подальший розвиток
-                        різних форм діяльності забезпечує
-                        широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
-                        завдань. Завдання організації, особливо ж консультація з широким активом є цікавий експеримент
-                        перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і місце
-                        навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
-                        очевидна, що консультація </p>
-                    <h3 class="main__blog-heading-h3">Які можуть виникнути проблеми?</h3>
-                    <ul class="main__blog-individual-list-decimal">
-                        <li class="main__blog-individual-list-decimal-item">Ідейні міркування вищого порядку, а також
-                            подальший розвиток
-                        </li>
-                        <li class="main__blog-individual-list-decimal-item">Різних форм діяльності забезпечує широкому
-                            колу (фахівців) участь у формуванні позицій,
-                        </li>
-                        <li class="main__blog-individual-list-decimal-item">Займаних учасниками щодо поставлених
-                            завдань.
+                        <p class="main__blog-individual-text">Ідейні міркування вищого порядку, а також подальший
+                            розвиток
+                            різних форм діяльності забезпечує
+                            широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
+                            завдань. Завдання організації, особливо ж консультація з широким активом є цікавий
+                            експеримент
+                            перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і
+                            місце
+                            навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
+                            очевидна, що консультація </p>
+                        <h3 class="main__blog-heading-h3">Які можуть виникнути проблеми?</h3>
+                        <ul class="main__blog-individual-list-decimal">
+                            <li class="main__blog-individual-list-decimal-item">Ідейні міркування вищого порядку, а
+                                також
+                                подальший розвиток
+                            </li>
+                            <li class="main__blog-individual-list-decimal-item">Різних форм діяльності забезпечує
+                                широкому
+                                колу (фахівців) участь у формуванні позицій,
+                            </li>
+                            <li class="main__blog-individual-list-decimal-item">Займаних учасниками щодо поставлених
+                                завдань.
 
-                        </li>
-                        <li class="main__blog-individual-list-decimal-item">Завдання організації, особливо ж
-                            консультація з широким активом є цікавий експеримент перевірки
-                        </li>
-                    </ul>
-                    <div class="main__blog-individual-image-block">
-                        <figure class="main__blog-individual-image-block-img">
-                            <img src="./images/blog-individual/blog-img1.jpg" alt="Image1">
-                            <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до зображення
-                            </figcaption>
-                        </figure>
-                        <figure class="main__blog-individual-image-block-img">
-                            <img src="./images/blog-individual/blog-img2.jpg" alt="Image1">
-                            <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до зображення
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <p class="main__blog-individual-text">Ідейні міркування вищого порядку, а також подальший розвиток
-                        різних форм діяльності забезпечує
-                        широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
-                        завдань. Завдання організації, особливо ж консультація з широким активом є цікавий експеримент
-                        перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і місце
-                        навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
-                        очевидна, що консультація </p>
-                    <div class="main__blog-individual-image-block">
-                        <figure class="main__blog-individual-image-block-img">
-                            <img src="./images/blog-individual/blog-img3.jpg" alt="Image1">
-                            <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до зображення
-                            </figcaption>
-                        </figure>
-                        <figure class="main__blog-individual-image-block-img">
-                            <img src="./images/blog-individual/blog-img4.jpg" alt="Image1">
-                            <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до зображення
-                            </figcaption>
-                        </figure>
-                        <figure class="main__blog-individual-image-block-img">
-                            <img src="./images/blog-individual/blog-img5.jpg" alt="Image1">
-                            <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до зображення
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <p class="main__blog-individual-text">Ідейні міркування вищого порядку, а також подальший розвиток
-                        різних форм діяльності забезпечує
-                        широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
-                        завдань. Завдання організації, особливо ж консультація з широким активом є цікавий експеримент
-                        перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і місце
-                        навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
-                        очевидна, що консультація </p>
-                    <div class="main__blog-individual-quote">
-                        <object class="main__blog-individual-quote-icon"
-                            data="./images/blog-individual/quote-icon.svg"></object>
-                        <div class="main__blog-individual-quote-author">
-                            <p>Звенигород Станіславський</p>
+                            </li>
+                            <li class="main__blog-individual-list-decimal-item">Завдання організації, особливо ж
+                                консультація з широким активом є цікавий експеримент перевірки
+                            </li>
+                        </ul>
+                        <div class="main__blog-individual-image-block">
+                            <figure class="main__blog-individual-image-block-img">
+                                <img src="./images/blog-individual/blog-img1.jpg" alt="Image1">
+                                <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до
+                                    зображення
+                                </figcaption>
+                            </figure>
+                            <figure class="main__blog-individual-image-block-img">
+                                <img src="./images/blog-individual/blog-img2.jpg" alt="Image1">
+                                <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до
+                                    зображення
+                                </figcaption>
+                            </figure>
                         </div>
-                        <p class="main__blog-individual-quote-text">Ідейні міркування вищого порядку, а також подальший
-                            розвиток різних форм діяльності забезпечує широкому колу (фахівців) участь у формуванні
-                            позицій, займаних </p>
+                        <p class="main__blog-individual-text">Ідейні міркування вищого порядку, а також подальший
+                            розвиток
+                            різних форм діяльності забезпечує
+                            широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
+                            завдань. Завдання організації, особливо ж консультація з широким активом є цікавий
+                            експеримент
+                            перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і
+                            місце
+                            навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
+                            очевидна, що консультація </p>
+                        <div class="main__blog-individual-image-block">
+                            <figure class="main__blog-individual-image-block-img">
+                                <img src="./images/blog-individual/blog-img3.jpg" alt="Image1">
+                                <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до
+                                    зображення
+                                </figcaption>
+                            </figure>
+                            <figure class="main__blog-individual-image-block-img">
+                                <img src="./images/blog-individual/blog-img4.jpg" alt="Image1">
+                                <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до
+                                    зображення
+                                </figcaption>
+                            </figure>
+                            <figure class="main__blog-individual-image-block-img">
+                                <img src="./images/blog-individual/blog-img5.jpg" alt="Image1">
+                                <figcaption class="main__blog-individual-image-block-img-coment">1/25 Коментар до
+                                    зображення
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <p class="main__blog-individual-text">Ідейні міркування вищого порядку, а також подальший
+                            розвиток
+                            різних форм діяльності забезпечує
+                            широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
+                            завдань. Завдання організації, особливо ж консультація з широким активом є цікавий
+                            експеримент
+                            перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і
+                            місце
+                            навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
+                            очевидна, що консультація </p>
+                        <div class="main__blog-individual-quote">
+                            <object class="main__blog-individual-quote-icon"
+                                data="./images/blog-individual/quote-icon.svg"></object>
+                            <div class="main__blog-individual-quote-author">
+                                <p>Звенигород Станіславський</p>
+                            </div>
+                            <p class="main__blog-individual-quote-text">Ідейні міркування вищого порядку, а також
+                                подальший
+                                розвиток різних форм діяльності забезпечує широкому колу (фахівців) участь у формуванні
+                                позицій, займаних </p>
+                        </div>
+                        <p class="main__blog-individual-text-bottom">Ідейні міркування вищого порядку, а також подальший
+                            розвиток
+                            різних форм діяльності забезпечує
+                            широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
+                            завдань. Завдання організації, особливо ж консультація з широким активом є цікавий
+                            експеримент
+                            перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і
+                            місце
+                            навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
+                            очевидна, що консультація </p>
+                        <div class="main__blog-individual-social">
+                            <div class="main__blog-individual-social-links">
+                                <p class="main__blog-individual-social-text">Поділитися:</p>
+                                <a href="#">
+                                    <img class="main__blog-individual-social-facebook"
+                                        src="./images/blog-individual/facebook-icon.svg" alt="facebook">
+                                </a>
+                                <a href="#">
+                                    <img class="main__blog-individual-social-twitter"
+                                        src="./images/blog-individual/twitter-icon.svg" alt="twitter">
+                                </a>
+                                <a href="#">
+                                    <div class="main__blog-individual-social-linkedin">
+                                        <img class="main__blog-individual-social-linkedin-ellipse"
+                                            src="./images/blog-individual/Ellipse 1.svg" alt="linkedin">
+                                        <img class="main__blog-individual-social-linkedin-letters"
+                                            src="./images/blog-individual/linkedin.svg">
+                                    </div>
+                                </a>
+                            </div>
+                            <button class="main__blog-individual-social-bmc-button" type="submit"></button>
+                        </div>
+                        <div class="main__blog-individual-social-arrows">
+                            <div class="main__blog-individual-social-arrows-prev">
+                                <a href="#">
+                                    <img class="main__blog-individual-social-arrows-prev-img"
+                                        src="./images/left-slider-arrow.svg" alt="Prev slider arrow">
+                                </a>
+                                <p>Попередня стаття</p>
+                            </div>
+                            <div class="main__blog-individual-social-arrows-next">
+                                <p>Наступна стаття</p>
+                                <a href="#">
+                                    <img class="main__blog-individual-social-arrows-next-img"
+                                        src="./images/right-slider-arrow.svg" alt="Next slider arrow">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <p class="main__blog-individual-text-bottom">Ідейні міркування вищого порядку, а також подальший
-                        розвиток
-                        різних форм діяльності забезпечує
-                        широкому колу (фахівців) участь у формуванні позицій, займаних учасниками щодо поставлених
-                        завдань. Завдання організації, особливо ж консультація з широким активом є цікавий експеримент
-                        перевірки істотних фінансових і адміністративних умов. Не слід, однак забувати, що рамки і місце
-                        навчання кадрів вимагають від нас аналізу форм розвитку. Значимість цих проблем настільки
-                        очевидна, що консультація </p>
-                    <div class="main__blog-individual-social">
-                        <div class="main__blog-individual-social-links">
-                            <p class="main__blog-individual-social-text">Поділитися:</p>
-                            <a href="#">
-                                <object class="main__blog-individual-social-facebook"
-                                    data="./images/blog-individual/facebook-icon.svg"></object>
-                            </a>
-                            <a href="#">
-                                <object class="main__blog-individual-social-twitter"
-                                    data="./images/blog-individual/twitter-icon.svg"></object>
-                            </a>
-                            <a href="#">
-                                <div class="main__blog-individual-social-linkedin">
-                                    <object class="main__blog-individual-social-linkedin-ellipse"
-                                        data="./images/blog-individual/Ellipse 1.svg"></object>
-                                    <object class="main__blog-individual-social-linkedin-letters"
-                                        data="./images/blog-individual/linkedin.svg"></object>
+                    <div class="container-blog-individual-slider">
+                        <section class="main__blog-individual-other-articles">
+                            <div class="main__articles-title main__blog-individual-articles-title">
+                                <div class="main__title-wrapper">
+                                    <h2 class="main__heading">Інші статті</h2>
                                 </div>
-                            </a>
+                                <button class="more-action" type="submit">
+                                    Більше статей
+                                </button>
+                            </div>
+                            <div class="main__slider-wrapper">
+                                <div class="swiper main__articles-slider-list">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper main__slider-wrapper-track">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide main__articles-slide">
+                                            <a class="main__articles-slide-img" href="#"><img
+                                                    src="./images/articles-slider/slide1.jpg" alt="slide1"></a>
+                                            <nav class="main__articles-slide-tags">
+                                                <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                                <a class="main__slide-tags-tips" href="#">Tips</a>
+                                                <a class="main__slide-tags-c" href="#">C#</a>
+                                            </nav>
+                                            <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне
+                                                    навчання з
+                                                    дрібницями на утримання та результати</a></h4>
+                                            <p class="main__articles-slide-text">Питання максимізації уваги учнів і
+                                                збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної Питання
+                                                максимізації уваги
+                                                учнів і збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                            <div class="main__articles-slide-panel">
+                                                <div class="main__articles-slide-calendar">
+                                                    <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                                    <p class="main__articles-slide-date">5.05.2022</p>
+                                                </div>
+                                                <div class="main__articles-slide-views">
+                                                    <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                                    <p class="main__articles-slide-views-count">48</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide main__articles-slide">
+                                            <a class="main__articles-slide-img" href="#"><img
+                                                    src="./images/articles-slider/slide2.jpg" alt="slide2"></a>
+                                            <nav class="main__articles-slide-tags">
+                                                <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                                <a class="main__slide-tags-tips" href="#">Tips</a>
+                                                <a class="main__slide-tags-c" href="#">C#</a>
+                                            </nav>
+                                            <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне
+                                                    навчання з
+                                                    дрібницями на утримання.</a></h4>
+                                            <p class="main__articles-slide-text">Питання максимізації уваги учнів і
+                                                збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної Питання
+                                                максимізації уваги
+                                                учнів і збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                            <div class="main__articles-slide-panel">
+                                                <div class="main__articles-slide-calendar">
+                                                    <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                                    <p class="main__articles-slide-date">5.05.2022</p>
+                                                </div>
+                                                <div class="main__articles-slide-views">
+                                                    <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                                    <p class="main__articles-slide-views-count">48</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide main__articles-slide">
+                                            <a class="main__articles-slide-img" href="#"><img
+                                                    src="./images/articles-slider/slide1.jpg" alt="slide3"></a>
+                                            <nav class="main__articles-slide-tags">
+                                                <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                                <a class="main__slide-tags-tips" href="#">Tips</a>
+                                                <a class="main__slide-tags-c" href="#">C#</a>
+                                            </nav>
+                                            <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне
+                                                    навчання з
+                                                    дрібницями на утримання та результати</a></h4>
+                                            <p class="main__articles-slide-text">Питання максимізації уваги учнів і
+                                                збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної Питання
+                                                максимізації уваги
+                                                учнів і збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                            <div class="main__articles-slide-panel">
+                                                <div class="main__articles-slide-calendar">
+                                                    <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                                    <p class="main__articles-slide-date">5.05.2022</p>
+                                                </div>
+                                                <div class="main__articles-slide-views">
+                                                    <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                                    <p class="main__articles-slide-views-count">48</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide main__articles-slide">
+                                            <a class="main__articles-slide-img" href="#"><img
+                                                    src="./images/articles-slider/slide2.jpg" alt="slide4"></a>
+                                            <nav class="main__articles-slide-tags">
+                                                <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                                <a class="main__slide-tags-tips" href="#">Tips</a>
+                                                <a class="main__slide-tags-c" href="#">C#</a>
+                                            </nav>
+                                            <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне
+                                                    навчання з
+                                                    дрібницями на утримання.</a></h4>
+                                            <p class="main__articles-slide-text">Питання максимізації уваги учнів і
+                                                збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної Питання
+                                                максимізації уваги
+                                                учнів і збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                            <div class="main__articles-slide-panel">
+                                                <div class="main__articles-slide-calendar">
+                                                    <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                                    <p class="main__articles-slide-date">5.05.2022</p>
+                                                </div>
+                                                <div class="main__articles-slide-views">
+                                                    <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                                    <p class="main__articles-slide-views-count">48</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide main__articles-slide">
+                                            <a class="main__articles-slide-img" href="#"><img
+                                                    src="./images/articles-slider/slide1.jpg" alt="slide1"></a>
+                                            <nav class="main__articles-slide-tags">
+                                                <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                                <a class="main__slide-tags-tips" href="#">Tips</a>
+                                                <a class="main__slide-tags-c" href="#">C#</a>
+                                            </nav>
+                                            <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне
+                                                    навчання з
+                                                    дрібницями на утримання та результати</a></h4>
+                                            <p class="main__articles-slide-text">Питання максимізації уваги учнів і
+                                                збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної Питання
+                                                максимізації уваги
+                                                учнів і збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                            <div class="main__articles-slide-panel">
+                                                <div class="main__articles-slide-calendar">
+                                                    <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                                    <p class="main__articles-slide-date">5.05.2022</p>
+                                                </div>
+                                                <div class="main__articles-slide-views">
+                                                    <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                                    <p class="main__articles-slide-views-count">48</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide main__articles-slide">
+                                            <a class="main__articles-slide-img" href="#"><img
+                                                    src="./images/articles-slider/slide2.jpg" alt="slide2"></a>
+                                            <nav class="main__articles-slide-tags">
+                                                <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                                                <a class="main__slide-tags-tips" href="#">Tips</a>
+                                                <a class="main__slide-tags-c" href="#">C#</a>
+                                            </nav>
+                                            <h4 class="main__articles-slide-heading"><a href="#">Наскільки ефективне
+                                                    навчання з
+                                                    дрібницями на утримання.</a></h4>
+                                            <p class="main__articles-slide-text">Питання максимізації уваги учнів і
+                                                збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної Питання
+                                                максимізації уваги
+                                                учнів і збільшення
+                                                залученості переслідують вчителів на всіх рівнях шкільної</p>
+                                            <div class="main__articles-slide-panel">
+                                                <div class="main__articles-slide-calendar">
+                                                    <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                                    <p class="main__articles-slide-date">5.05.2022</p>
+                                                </div>
+                                                <div class="main__articles-slide-views">
+                                                    <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                                    <p class="main__articles-slide-views-count">48</p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                        </div>
-                        <button class="main__blog-individual-social-bmc-button" type="submit"></button>
+                                    </div>
+                                    <!-- If we need pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                <div class="swiper-button-prev main__slider-arrow-prev">
+                                    <svg class="main__slider-arrow-prev-btn" width="40" height="12" viewBox="0 0 40 12"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M-9.53674e-07 5.99988L6 0V4.81907L6 7.18085L6 12L-9.53674e-07 5.99988Z"
+                                            fill="#23262D" />
+                                        <line y1="-1" x2="34.4444" y2="-1"
+                                            transform="matrix(1 7.86805e-08 9.71364e-08 -1 5.55469 5)" stroke="#23262D"
+                                            stroke-width="2" />
+                                    </svg>
+                                </div>
+                                <div class="swiper-button-next main__slider-arrow-next">
+                                    <svg class="main__slider-arrow-next-btn" width="63" height="55" viewBox="0 0 63 55"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="35.5" cy="27.5" r="26.5" transform="rotate(-180 35.5 27.5)"
+                                            stroke="#E36F59" stroke-width="2" />
+                                        <path d="M40 27.0001L34 33L34 28.1809L34 25.8191L34 21L40 27.0001Z"
+                                            fill="#E36F59" />
+                                        <line y1="-1" x2="34.4444" y2="-1"
+                                            transform="matrix(-1 -1.66103e-07 -1.84559e-07 1 34.4453 28)"
+                                            stroke="#E36F59" stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </section>
                     </div>
-
+                </div>
+                <div class="main__blog-individual-wrapper-right">
+                    <h4 class="main__blog-individual-right-heading-top">Категорії</h4>
+                    <nav class="main__blog-individual-right-navigation">
+                        <ul class="main__blog-navigation-tags main__blog-individual-right-navigation-list">
+                            <li class="main__blog-tag-frontend"><a href="#">Frontend</a></li>
+                            <li class="main__blog-tag-backend"><a href="#">Backend</a></li>
+                            <li class="main__blog-tag-c"><a href="#">C#</a></li>
+                            <li class="main__blog-tag-javascript"><a href="#">JavaScript</a></li>
+                            <li class="main__blog-tag-cloud"><a href="#">Cloud</a></li>
+                            <li class="main__blog-tag-react"><a href="#">React</a></li>
+                            <li class="main__blog-tag-selfeducation"><a href="#">Self-education</a></li>
+                            <li class="main__blog-tag-tips"><a href="#">Tips</a></li>
+                            <li class="main__blog-tag-sql"><a href="#">Sql</a></li>
+                            <li class="main__blog-tag-softskills"><a href="#">Soft skills</a></li>
+                        </ul>
+                    </nav>
+                    <h4 class="main__blog-individual-right-heading-bottom">Курси</h4>
+                    <div class="main__blog-individual-right-courses-card">
+                        <object class="main__blog-individual-right-courses-card-img"
+                            data="./images/courses-cards/C++_logo.svg"></object>
+                        <h4 class="main__blog-individual-right-courses-card-heading">C++ від нуля до героя</h4>
+                        <p class="main__blog-individual-right-courses-card-text">Навчаємо веб програмування, створення
+                            ігор та розробки ПЗ. Проходьте курси, вирішуйте завдання, переглядайте новини та ставайте
+                            справжніми майстрами програмування!</p>
+                        <a class="main__blog-individual-right-courses-card-link" href="#">Детальніше</a>
+                    </div>
                 </div>
             </div>
 
+
         </div>
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="footer__author">Made with ❤️ by Stanislav Zghurskyi ©2022</p>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-items"><a href="#">Linkedin</a></li>
+                        <li class="footer__navigation-items"><a href="#">Telegram</a></li>
+                        <li class="footer__navigation-items"><a href="#">Gmail</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/components/swiper-slider.js"></script>
 </body>
 
 </html>
