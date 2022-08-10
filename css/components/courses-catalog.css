@@ -19,15 +19,66 @@
 }
 
 .main__courses-catalog-products {
-    margin-top: 70px;
+    margin-top: 40px;
+    
 }
 
-.main__courses-catalog-products-c-plus-pink {
+.main__courses-catalog-products-c-plus-pink {           
     max-width: 285px;
-    height: 266px;
+    max-height: 266px;
+    border-radius: 8px;    
+    position: relative;
+    float: left;
     background: #FFB6B6;
-    border-radius: 8px;
+}
+
+.main__courses-catalog-products-c-plus-pink:hover .main__courses-catalog-products-c-plus-pink-popuper {
+    position: absolute;
+    min-height: 363px;
+    min-width: 285px;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 23px 23px rgba(17, 34, 54, 0.09);
+    background: #FFB6B6;
+    border-radius: 8px; 
+}
+
+.main__courses-catalog-products-c-plus-blue {           
+    max-width: 285px;
+    max-height: 266px;
+    border-radius: 8px;    
+    position: relative;
+    float: left;
+    background: #C2E0FF;
+}
+
+.main__courses-catalog-products-c-plus-blue:hover .main__courses-catalog-products-c-plus-blue-popuper {
+    position: absolute;
+    min-height: 363px;
+    min-width: 285px;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 23px 23px rgba(17, 34, 54, 0.09);
+    background: #C2E0FF;
+    border-radius: 8px; 
+}
+
+.main__courses-catalog-products-card-inner {
     padding: 30px 20px;
+}
+
+.main__courses-catalog-products-c-plus-pink {    
+        
+}
+
+.main__courses-catalog-products-c-plus-blue {
+    background: #C2E0FF;
+}
+
+.main__courses-catalog-products-js-yellow {
+    background: #FFF7B9;
+}
+
+.main__courses-catalog-products-c-violet {
+    background: #CCC1F6;
 }
 
 .main__courses-catalog-products-heading {
@@ -54,6 +105,29 @@
     -webkit-box-orient: vertical;
 }
 
+.main__courses-catalog-products-card:hover .main__courses-catalog-products-text {
+    display: block;
+}
+
 .main__courses-catalog-products-link {
     display: none;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: var(--link-color);
+    transition: color .3s;
+}
+
+.main__courses-catalog-products-card:hover .main__courses-catalog-products-link {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+.main__courses-catalog-products-link:hover {
+    color: var(--link-active-color);
 }
