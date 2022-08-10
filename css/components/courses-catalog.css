@@ -1,0 +1,59 @@
+.main__courses-catalog-wrapper {
+    position: relative;
+    margin-top: 31px;
+}
+
+.main__courses-title-img {
+    top: 0;
+}
+
+.main__courses-catalog-heading {
+    margin-top: 36px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+    color: var(--title-color);
+}
+
+.main__courses-catalog-products {
+    margin-top: 70px;
+}
+
+.main__courses-catalog-products-c-plus-pink {
+    max-width: 285px;
+    height: 266px;
+    background: #FFB6B6;
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+
+.main__courses-catalog-products-heading {
+    margin-top: 30px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--title-color);
+}
+
+.main__courses-catalog-products-text {
+    margin-top: 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.main__courses-catalog-products-link {
+    display: none;
+}
