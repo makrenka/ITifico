@@ -5,6 +5,16 @@ const swiper = new Swiper('.main__articles-slider-list', {
   slidesPerView: 4,
   spaceBetween: 30,
   width: 1230,
+  breakpoints: {
+    1230: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+    945: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
 
   // If we need pagination
   pagination: {

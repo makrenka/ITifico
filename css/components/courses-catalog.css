@@ -1,3 +1,10 @@
+.background-pink-courses-catalog {
+    position: absolute;
+    top: 470px;
+    right: 0;
+    z-index: -1;    
+}
+
 .main__courses-catalog-wrapper {
     position: relative;
     margin-top: 31px;
@@ -21,14 +28,31 @@
 .main__courses-catalog-products {
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    flex-wrap: wrap;
 }
 
 .main__courses-catalog-products-card {           
     width: 285px;
-    height: 266px;
+    max-height: 266px;
     border-radius: 8px;    
-    position: relative;      
+    position: relative;   
+    margin-top: 30px; 
+    margin-right: 30px;      
+}
+
+.main__courses-catalog-products-card:nth-of-type(4n+4) {
+    margin-right: 0;
+}
+
+.main__courses-catalog-products-card:hover .main__courses-catalog-products-card-popuper{
+    position: absolute;
+    min-height: 363px;
+    width: 285px;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 23px 23px rgba(17, 34, 54, 0.09);
+    border-radius: 8px;
+    z-index: 1;
 }
 
 .main__courses-catalog-products-c-plus-pink {    
@@ -36,47 +60,30 @@
 }
 
 .main__courses-catalog-products-c-plus-pink:hover .main__courses-catalog-products-c-plus-pink-popuper {
-    position: absolute;
-    min-height: 363px;
-    min-width: 285px;
-    border: 2px solid #FFFFFF;
-    box-shadow: 0px 23px 23px rgba(17, 34, 54, 0.09);
-    background: #FFB6B6;
-    border-radius: 8px; 
-    
+    background: #FFB6B6;        
 }
 
 .main__courses-catalog-products-c-plus-blue {
     background: #C2E0FF;
 }
 
-.main__courses-catalog-products-c-plus-blue:hover .main__courses-catalog-products-c-plus-blue-popuper {
-    position: absolute;
-    min-height: 363px;
-    min-width: 285px;
-    border: 2px solid #FFFFFF;
-    box-shadow: 0px 23px 23px rgba(17, 34, 54, 0.09);
-    background: #C2E0FF;
-    border-radius: 8px; 
-    
+.main__courses-catalog-products-c-plus-blue:hover .main__courses-catalog-products-c-plus-blue-popuper {    
+    background: #C2E0FF;    
 }
 
 .main__courses-catalog-products-js-yellow {
     background: #FFF7B9;
 }
 
-.main__courses-catalog-products-js-yellow:hover .main__courses-catalog-products-js-yellow-popuper {
-    position: absolute;
-    min-height: 363px;
-    min-width: 285px;
-    border: 2px solid #FFFFFF;
-    box-shadow: 0px 23px 23px rgba(17, 34, 54, 0.09);
-    background: #FFF7B9;
-    border-radius: 8px; 
-   
+.main__courses-catalog-products-js-yellow:hover .main__courses-catalog-products-js-yellow-popuper {    
+    background: #FFF7B9;    
 }
 
 .main__courses-catalog-products-c-violet {
+    background: #CCC1F6;
+}
+
+.main__courses-catalog-products-c-violet:hover .main__courses-catalog-products-c-violet-popuper {
     background: #CCC1F6;
 }
 
