@@ -1,3 +1,7 @@
+.background-big-blue-main-828 {
+    display: none;
+}
+
 .main__background-pink {
     position: absolute;
     top: 842px;
@@ -291,14 +295,24 @@
         max-width: 690px;
     }
 
+    .background-big-blue-header {
+        display: none;
+    }
+
+    .background-big-blue-main-828 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+
     .main__information {
         margin-top: 5px;
     }
 
     .main__information-text {
-        margin-top: 43px;
-        margin-right: 13px;
+        margin-top: 43px;        
         padding-right: 0;
+        max-width: 306px;
     }
 
     .main__information-text-heading {
@@ -319,13 +333,24 @@
         font-size: 18px;
         line-height: 24px;
         color: var(--txt);
+        max-width: 278px;
+    }
+
+    .main__information-button-wrapper-1080 {
+        margin-top: 51px;
     }
 
     .main__information-btn {
         margin-top: 51px;
     }
 
+    .main__information-image {
+        position: relative;
+    }
+
     .main__information-image-main {
         max-width: 392px;
+        position: absolute;
+        right: -21px;
     }
 }
