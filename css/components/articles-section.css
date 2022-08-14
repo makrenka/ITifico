@@ -67,3 +67,10 @@
 .main__articles-slider-list {
     height: 539px;
 }
+
+@media screen and (max-width: 828px) {
+    .main__articles {
+        margin-top: 100px;
+    }
+}
+

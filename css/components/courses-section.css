@@ -5,3 +5,9 @@
 .main__courses-slider-list {
     height: 351px;
 }
+
+@media screen and (max-width: 828px) {
+    .main__courses {
+        margin-top: 102px;
+    }
+}

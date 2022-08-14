@@ -9,7 +9,7 @@
 
 .main__subscription-wrapper-heading {
     margin: 0 90px 0 78px;
-    background: url(../../images/background/rectangle-form-large.svg) no-repeat 678px 38px;
+    background: url(../../images/background/rectangle-form-small.svg) no-repeat 0 38px;
 }
 
 .main__subscription-heading {
@@ -21,7 +21,7 @@
     letter-spacing: 0.01em;
     color: var(--black);
     padding-left: 12px;
-    background: url(../../images/background/rectangle-form-small.svg) no-repeat 0 38px;
+    background: url(../../images/background/rectangle-form-large.svg) no-repeat 678px 38px;
 }
 
 .main__subscription-text {
@@ -38,6 +38,7 @@
     margin: 50px 90px 0 90px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main__subscription-wrapper-user {
@@ -95,8 +96,8 @@
     outline: none;
 }
 
-.main__subscription-input--active {   
-    border-color: var(--gray2);    
+.main__subscription-input--active {
+    border-color: var(--gray2);
 }
 
 .main__subscription-input-btn-user {
@@ -132,7 +133,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .main__subscription-btn:hover {
@@ -147,4 +148,82 @@
     display: flex;
     justify-content: space-between;
     width: 136px;
+}
+
+@media screen and (max-width: 1255px) {
+    .main__form-subscription {
+        padding-bottom: 50px;
+    }
+
+    .main__subscription-wrapper-heading {
+        background: url(../../images/background/rectangle-form-small.svg) no-repeat 118px 38px;
+    }
+
+    .main__subscription-heading {
+        text-align: center;
+        background: url(../../images/background/rectangle-form-large.svg) no-repeat 326px 100px;
+    }
+
+    .main__subscription-text {
+        text-align: center;
+    }
+
+    .main__subscription-wrapper-inputs {
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    .main__subscription-btn {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .main__subscription-wrapper-heading {
+        background: url(../../images/background/rectangle-form-small.svg) no-repeat 75px 38px;
+    }
+
+    .main__subscription-heading {
+        background: url(../../images/background/rectangle-form-large.svg) no-repeat 285px 100px;
+    }    
+}
+
+@media screen and (max-width: 992px) {
+    .main__subscription-input {
+        width: 255px;
+    }
+
+    .main__subscription-wrapper-heading {
+        background: url(../../images/background/rectangle-form-small.svg) no-repeat 55px 38px;
+    }
+
+    .main__subscription-heading {
+        background: url(../../images/background/rectangle-form-large.svg) no-repeat 265px 100px;
+    }
+
+    .main__subscription-wrapper-inputs {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .main__subscription-input-btn-user {
+        width: 50px;
+    }
+
+    .main__subscription-input-btn-mail {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .main__subscription-wrapper-heading {
+        margin: 0 66px;
+        background: url(../../images/background/rectangle-form-small.svg) no-repeat 5px 26px;
+    }
+
+    .main__subscription-heading {
+        font-size: 40px;
+        line-height: 45px;
+        background: url(../../images/background/rectangle-form-large.svg) no-repeat 151px 71px;
+    }
 }
