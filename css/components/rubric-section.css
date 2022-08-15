@@ -74,6 +74,10 @@
 }
 
 @media screen and (max-width: 828px) {
+    .main__rubric-heading {
+        margin-top: 100px;
+    }
+
     .main__rubric-frame1 {
         margin-top: 26px;
         margin-right: 28px;

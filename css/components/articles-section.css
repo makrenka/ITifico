@@ -68,6 +68,24 @@
     height: 539px;
 }
 
+@media screen and (max-width: 1255px) {
+    .container-slider {
+        max-width: 1110px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .container-slider {
+        max-width: 1022px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-slider {
+        max-width: 858px;
+    }
+}
+
 @media screen and (max-width: 828px) {
     .main__articles {
         margin-top: 100px;

@@ -9,10 +9,18 @@
     z-index: -1;
 }
 
+.main__background-pink-828 {
+    display: none;
+}
+
 .main__background-big-blue {
     position: absolute;
     top: 1460px;
     z-index: -1;
+}
+
+.main__background-big-blue-courses-scetion-828 {
+    display: none;
 }
 
 .main__background-small-blue-courses {
@@ -20,6 +28,10 @@
     top: 1752px;
     right: 0;
     z-index: -1;
+}
+
+.main__background-small-blue-courses-828 {
+    display: none;
 }
 
 .main__background-pink-footer {
@@ -35,6 +47,9 @@
     z-index: -1;
 }
 
+.main__background-small-blue-form-828 {
+    display: none;
+}
 
 .main__information {
     margin-top: 58px;
@@ -181,9 +196,7 @@
 
 @media screen and (max-width: 1255px) {
     .container {
-        margin: 0 auto;
         max-width: 1080px;
-        margin-left: 30px;
     }
 
     .main__information-text-heading {
@@ -201,9 +214,7 @@
 
 @media screen and (max-width: 1080px) {
     .container {
-        margin: 0 auto;
         max-width: 992px;
-        margin-left: 30px;
     }
 
     .main__information-text-heading {
@@ -270,9 +281,7 @@
 
 @media screen and (max-width: 992px) {
     .container {
-        margin: 0 auto;
         max-width: 828px;
-        margin-left: 30px;
     }
 
     .main__information-text-heading {
@@ -291,7 +300,6 @@
 
 @media screen and (max-width: 828px) {
     .container {
-        margin: 0 auto;
         max-width: 690px;
     }
 
@@ -302,6 +310,52 @@
     .background-big-blue-main-828 {
         display: block;
         position: absolute;
+        z-index: -1;
+    }
+
+    .main__background-pink {
+        display: none;
+    }
+    
+    .main__background-pink-828 {
+        display: block;
+        position: absolute;
+        top: 573px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .main__background-big-blue {
+        top: 1103px;
+        left: -279px;
+    }
+
+    .main__background-small-blue-courses {
+        display: none;
+    }
+    
+    .main__background-small-blue-courses-828 {
+        display: block;
+        position: absolute;
+        top: 1412px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .main__background-pink-footer {
+        top: 2112px;
+        left: -212px;
+    }
+
+    .main__background-small-blue-form {
+        display: none;
+    }
+    
+    .main__background-small-blue-form-828 {
+        display: block;
+        position: absolute;
+        top: 2388px;
+        right: 0;
         z-index: -1;
     }
 
@@ -365,7 +419,7 @@
         right: 280px;
         top: 313px;
     }
-    
+
     .main__rubric-heading {
         font-size: 40px;
         line-height: 40px;

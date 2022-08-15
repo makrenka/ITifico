@@ -216,14 +216,19 @@
 }
 
 @media screen and (max-width: 828px) {
+    .main__form-subscription {
+        margin-top: 100px;
+        padding: 50px 0;
+    }
+
     .main__subscription-wrapper-heading {
-        margin: 0 66px;
-        background: url(../../images/background/rectangle-form-small.svg) no-repeat 5px 26px;
+        margin: 0;        
+        background: url(../../images/background/rectangle-form-small.svg) no-repeat 70px 26px;
     }
 
     .main__subscription-heading {
         font-size: 40px;
         line-height: 45px;
-        background: url(../../images/background/rectangle-form-large.svg) no-repeat 151px 71px;
+        background: url(../../images/background/rectangle-form-large.svg) no-repeat 214px 71px;
     }
 }
