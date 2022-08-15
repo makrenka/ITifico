@@ -90,5 +90,9 @@
     .main__articles {
         margin-top: 100px;
     }
+
+    .container-slider {
+        max-width: 720px;
+    }
 }
 

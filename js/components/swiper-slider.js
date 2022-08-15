@@ -2,17 +2,34 @@ const swiper = new Swiper('.main__articles-slider-list', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  slidesPerView: 4,
-  spaceBetween: 30,
-  width: 1230,
+  // slidesPerView: 4,
+  // spaceBetween: 30,
+  // width: 1230,
   breakpoints: {
-    1230: {
+    1255: {
       slidesPerView: 4,
       spaceBetween: 30,
+      width: 1230,
     },
-    945: {
+    1080: {
       slidesPerView: 3,
       spaceBetween: 30,
+      width: 1080,
+    },
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 992,
+    },
+    828: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 828,
+    },
+    750: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 720,
     },
   },
 
