@@ -76,6 +76,19 @@
     }
 
     .main__slider-arrow-prev {
-        left: 30px !important;
+        left: 18px !important;
+    }
+
+    .main__slider-arrow-next {
+        right: 20px !important;
+    }
+
+    .main__slider-courses-arrow-prev {
+        top: 311px;
+        left: 10px;
+    }
+
+    .main__slider-courses-arrow-next {
+        right: 60px;
     }
 }

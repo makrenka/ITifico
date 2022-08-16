@@ -52,10 +52,34 @@ const swiper = new Swiper('.main__articles-slider-list', {
 new Swiper('.main__courses-slider-list', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
-  slidesPerView: 2,
-  spaceBetween: 30,
-  width: 1230,
+  loop: true,  
+  breakpoints: {
+    1255: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 1230,
+    },
+    1080: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 1080,
+    },
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 992,
+    },
+    828: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 828,
+    },
+    750: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 700,
+    },
+  },
 
   // If we need pagination
   pagination: {
