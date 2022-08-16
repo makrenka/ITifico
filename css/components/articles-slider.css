@@ -1,5 +1,5 @@
 .main__slider-wrapper {
-    position: relative;    
+    position: relative;
 }
 
 .main__slider-wrapper-track {
@@ -34,6 +34,14 @@
     position: absolute;
 }
 
+.main__slider-arrow-prev-btn-828 {
+    display: none;
+}
+
+.main__slider-arrow-next-btn-828 {
+    display: none;
+}
+
 .swiper-pagination-bullet {
     background: #E36F59 !important;
 }
@@ -52,4 +60,22 @@
     right: 75px;
     z-index: 1;
     cursor: pointer;
+}
+
+@media screen and (max-width: 828px) {
+
+    .main__slider-arrow-prev-btn-828,
+    .main__slider-arrow-next-btn-828 {
+        display: block;
+        position: absolute;
+    }
+
+    .main__slider-arrow-next-btn,
+    .main__slider-arrow-prev-btn {
+        display: none;
+    }
+
+    .main__slider-arrow-prev {
+        left: 30px !important;
+    }
 }

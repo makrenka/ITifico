@@ -25,7 +25,7 @@
     font-size: 50px;
     line-height: 50px;
     letter-spacing: 0.01em;
-    color: var(--black);    
+    color: var(--black);
 }
 
 .more-action {
@@ -44,7 +44,7 @@
     line-height: 19px;
     color: var(--red);
     cursor: pointer;
-    transition: color .3s;    
+    transition: color .3s;
 }
 
 .more-action:hover {
@@ -94,5 +94,17 @@
     .container-slider {
         max-width: 720px;
     }
-}
 
+    .main__articles-title {
+        background: url(../../images/background/rectangle-articles.svg) no-repeat 6px 28px;
+    }
+
+    .main__heading {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .more-action {
+        padding: 12px 20px 11px 20px;
+    }
+}
