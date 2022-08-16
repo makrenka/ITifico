@@ -1,3 +1,56 @@
+.background-big-blue-main-828 {
+    display: none;
+}
+
+.main__background-pink {
+    position: absolute;
+    top: 842px;
+    right: 0;
+    z-index: -1;
+}
+
+.main__background-pink-828 {
+    display: none;
+}
+
+.main__background-big-blue {
+    position: absolute;
+    top: 1460px;
+    z-index: -1;
+}
+
+.main__background-big-blue-courses-scetion-828 {
+    display: none;
+}
+
+.main__background-small-blue-courses {
+    position: absolute;
+    top: 1752px;
+    right: 0;
+    z-index: -1;
+}
+
+.main__background-small-blue-courses-828 {
+    display: none;
+}
+
+.main__background-pink-footer {
+    position: absolute;
+    top: 2653px;
+    z-index: -1;
+}
+
+.main__background-small-blue-form {
+    position: absolute;
+    top: 2909px;
+    right: 0;
+    z-index: -1;
+}
+
+.main__background-small-blue-form-828 {
+    display: none;
+}
+
 .main__information {
     margin-top: 58px;
 
@@ -11,6 +64,8 @@
 .main__information-text {
     max-width: 654px;
     position: relative;
+    padding-right: 18px;
+    flex: 1 1 auto;
 }
 
 .main__information-title-homepage {
@@ -19,7 +74,7 @@
     top: 24px;
 }
 
-.main__information-text h1 {
+.main__information-text-heading {
     margin: 28px 0 22px 0;
     font-family: 'Bitter';
     font-style: normal;
@@ -27,15 +82,14 @@
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 0.005em;
-    max-width: 636px;
 }
 
-.main__information-text h1 a {
+.main__information-text-heading a {
     color: var(--link-active-color);
     text-decoration: none;
 }
 
-.main__information-text p {
+.main__information-text-txt {
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
@@ -43,6 +97,10 @@
     line-height: 26px;
     color: var(--txt);
     max-width: 512px;
+}
+
+.main__information-text-txt-750 {
+    display: none;
 }
 
 .main__information-btn {
@@ -61,7 +119,7 @@
     font-size: 16px;
     line-height: 19px;
     color: var(--white);
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .main__information-btn:hover {
@@ -74,12 +132,12 @@
 
 .main__information-text-scroll-down {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     margin-top: 77px;
 }
 
-.main__information-text-scroll-img a {
+.main__information-text-scroll-down-link {
     display: flex;
     align-items: center;
     margin-right: 30px;
@@ -93,18 +151,27 @@
     color: var(--link-color);
 }
 
-.main__information-text-scroll-img a img {
+.main__information-text-scroll-down-link-img {
     margin-right: 13px;
 }
 
 .main__information-text-scroll-border {
     border: 1px solid #D8DFDA;
     margin-top: 5px;
-    width: 523px;
+    flex: 1 1 auto;
+}
+
+.main__information-button-wrapper-1080 {
+    display: none;
+}
+
+.main__information-text-scroll-down-1080 {
+    display: none;
 }
 
 .main__information-image {
     position: relative;
+    flex: 1 1 auto;
 }
 
 .main__information-image-brackets {
@@ -116,7 +183,245 @@
 
 .main__information-image-braces {
     position: absolute;
-    left: 461px;
-    top: 4px;
+    right: -65px;
+    top: 30px;
     z-index: -1;
+}
+
+@media screen and (max-width: 1570px) {
+    .main__information-title-homepage {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    .container {
+        max-width: 1080px;
+    }
+
+    .main__information-text-heading {
+        margin-top: 0;
+    }
+
+    .main__information-btn {
+        margin-top: 40px;
+    }
+
+    .main__information-text-scroll-down {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .main__information-text-heading {
+        margin-bottom: 10px;
+    }
+
+    .main__information-button-wrapper-1080 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .main__information-btn {
+        display: none;
+    }
+
+    .main__information-btn-1080 {
+        padding: 15px 30px;
+        background: var(--red);
+        border-color: var(--red);
+        border-radius: 8px;
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--white);
+        cursor: pointer;
+    }
+
+    .main__information-image-main {
+        max-width: 500px;
+    }
+
+    .main__information-image-braces {
+        right: 458px;
+    }
+
+    .main__information-text-scroll-down {
+        display: none;
+    }
+
+    .main__information-text-scroll-down-1080 {
+        display: block;
+    }
+
+    .main__information-text-scroll-down-link {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .main__information-text-scroll-down-link-img-1080 {
+        margin-left: 10px;
+    }
+
+    .main__information-text-scroll-border {
+        margin: 5px 30px 0 30px;
+        flex: 1 1 auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 828px;
+    }
+
+    .main__information-text-heading {
+        font-size: 46px;
+        line-height: 62px;
+    }
+
+    .main__information-text-txt {
+        font-size: 16px;
+    }
+
+    .main__information-btn {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .container {
+        max-width: 690px;
+    }
+
+    .background-big-blue-header {
+        display: none;
+    }
+
+    .background-big-blue-main-828 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .main__background-pink {
+        display: none;
+    }
+    
+    .main__background-pink-828 {
+        display: block;
+        position: absolute;
+        top: 573px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .main__background-big-blue {
+        top: 1103px;
+        left: -279px;
+    }
+
+    .main__background-small-blue-courses {
+        display: none;
+    }
+    
+    .main__background-small-blue-courses-828 {
+        display: block;
+        position: absolute;
+        top: 1412px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .main__background-pink-footer {
+        top: 2112px;
+        left: -212px;
+    }
+
+    .main__background-small-blue-form {
+        display: none;
+    }
+    
+    .main__background-small-blue-form-828 {
+        display: block;
+        position: absolute;
+        top: 2388px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .main__information {
+        margin-top: 5px;
+    }
+
+    .main__information-text {
+        margin-top: 43px;
+        padding-right: 0;
+        max-width: 306px;
+    }
+
+    .main__information-text-heading {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    .main__information-text-txt {
+        display: none;
+    }
+
+    .main__information-text-txt-750 {
+        display: block;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--txt);
+        max-width: 278px;
+    }
+
+    .main__information-button-wrapper-1080 {
+        margin-top: 51px;
+    }
+
+    .main__information-btn {
+        margin-top: 51px;
+    }
+
+    .main__information-image {
+        position: relative;
+    }
+
+    .main__information-image-main {
+        max-width: 392px;
+        position: absolute;
+        right: -21px;
+    }
+
+    .main__information-image-brackets {
+        width: 118px;
+        left: -80px;
+        top: 25px;
+    }
+
+    .main__information-image-braces {
+        width: 122px;
+        right: 280px;
+        top: 313px;
+    }
+
+    .main__rubric-heading {
+        font-size: 40px;
+        line-height: 40px;
+    }
 }

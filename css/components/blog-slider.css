@@ -1,0 +1,23 @@
+main .main__swiper-blog {
+    margin-top: 70px;
+    padding: 0 15px 95px 15px;
+    position: relative;
+}
+
+.main__swiper-pagination-blog {
+    bottom: 28px !important;
+}
+
+.main__swiper-button-prev-blog {
+    position: absolute;
+    bottom: 29px;
+    left: 45px;
+    cursor: pointer;
+}
+
+.main__swiper-button-next-blog {
+    position: absolute;
+    bottom: 55px;
+    right: 78px;
+    cursor: pointer;
+}

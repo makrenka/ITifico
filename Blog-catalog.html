@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>ITifico - курси для програмістів. Блог</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <svg class="background-big-blue-header" width="814" height="610" viewBox="0 0 814 610" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M788.662 240.273C693.61 77.3646 435.389 135.504 382.691 56.2937C355.756 15.7129 325.503 -31.3063 281.783 -55.6938C240.015 -79.1059 191.611 -87.4952 149.452 -84.3736C-1.2252 -73.2529 -65.2437 61.3663 -36.1621 209.447C2.48318 406.889 177.558 608.623 385.423 609.988C494.137 610.769 597.972 571.944 679.557 516.926C680.142 516.535 680.728 516.145 681.313 515.755C762.898 460.346 861.268 364.552 788.662 240.273Z"
+            fill="#F8F9FA" />
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="./Homepage.html">
+                        <img src="./images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="header__navigation">
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="./Blog-catalog.html">Блог</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="./Courses-catalog.html">Курси</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Про мене</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Підписка на сайт</a>
+                        </li>
+                        <li class="header__navigation-list-item">
+                            <a class="header__navigation-link" href="#">Підтримка</a>
+                        </li>
+                    </ul>
+                    <div class="header__languege-box">
+                        <div class="header__languege-box-item">
+                            <a class="header__languege-box-link" href="#">UKR</a>
+                        </div>
+                        <div class="header__languege-box-item">
+                            <a class="header__languege-box-link" href="#">ENG</a>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main__blog-wrapper">
+                <img class="main__blog-title-img" src="./images/title-blog.png" alt="title-blog">
+                <nav class="main__blog-breadcrump">
+                    <ul class="main__blog-breadcrump-list">
+                        <li class="main__blog-breadcrump-item">
+                            <object class="main__blog-breadcrump-item-icon"
+                                data="./images/icons/home-blog-icon.svg"></object>
+                            <a class="main__blog-breadcrump-item-link" href="./Homepage.html">Головна</a>
+                        </li>
+                        <li class="main__blog-breadcrump-item">
+                            <object class="main__blog-breadcrump-item-icon"
+                                data="./images/icons/next-breadcrump-icon.svg"></object>
+                            Блог
+                        </li>
+                    </ul>
+                </nav>
+                <h2 class="main__blog-heading">Блог</h2>
+                <nav class="main__blog-navigation">
+                    <ul class="main__blog-navigation-tags">
+                        <li class="main__blog-tag-frontend"><a href="#">Frontend</a></li>
+                        <li class="main__blog-tag-backend"><a href="#">Backend</a></li>
+                        <li class="main__blog-tag-javascript"><a href="#">JavaScript</a></li>
+                        <li class="main__blog-tag-c"><a href="#">C#</a></li>
+                        <li class="main__blog-tag-selfeducation"><a href="#">Self-education</a></li>
+                        <li class="main__blog-tag-cloud"><a href="#">Cloud</a></li>
+                        <li class="main__blog-tag-tips"><a href="#">Tips</a></li>
+                        <li class="main__blog-tag-softskills"><a href="#">Soft skills</a></li>
+                        <li class="main__blog-tag-sql"><a href="#">Sql</a></li>
+                        <li class="main__blog-tag-react"><a href="#">React</a></li>
+                    </ul>
+                    <div class="main__blog-navigation-sort">
+                        <div class="main__blog-navigation-sort-wrapper">
+                            <p class="main__blog-navigation-sort-legend">Сортувати за:</p>
+                            <div class="main__blog-navigation-sort-wrapper-svg">
+                                <svg class="main__blog-navigation-sort-arrow" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4.99997 7.85018C4.82075 7.85018 4.64155 7.78175 4.50492 7.64518L0.205141 3.34536C-0.0683805 3.07184 -0.0683805 2.62837 0.205141 2.35496C0.478553 2.08155 0.921933 2.08155 1.19548 2.35496L4.99997 6.15968L8.80449 2.35509C9.07801 2.08168 9.52135 2.08168 9.79474 2.35509C10.0684 2.6285 10.0684 3.07197 9.79474 3.34549L5.49503 7.64531C5.35832 7.78191 5.17913 7.85018 4.99997 7.85018Z"
+                                        fill="#23262D" />
+                                </svg>
+                            </div>
+                        </div>
+                        <ul class="main__blog-navigation-sort-list">
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">по даті</a>
+                            </li>
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">по даті</a>
+                            </li>
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">за
+                                    популярністю</a></li>
+                            <li class="main__blog-sort-item"><a class="main__blog-sort-item-link" href="#">за
+                                    популярністю</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+        <div class="container-slider">
+            <!-- Slider main container -->
+            <div class="swiper main__swiper-blog">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper main__swiper-wrapper-blog">
+                    <!-- Slides -->
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide1.jpg"
+                                alt="slide1"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання та результати</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide2.jpg"
+                                alt="slide2"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання.</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide1.jpg"
+                                alt="slide3"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання та результати</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide2.jpg"
+                                alt="slide4"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання.</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide1.jpg"
+                                alt="slide1"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання та результати</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide2.jpg"
+                                alt="slide2"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання.</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide1.jpg"
+                                alt="slide3"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання та результати</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide2.jpg"
+                                alt="slide4"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання.</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide1.jpg"
+                                alt="slide1"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання та результати</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide2.jpg"
+                                alt="slide2"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання.</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide1.jpg"
+                                alt="slide3"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання та результати</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide main__articles-slide">
+                        <a class="main__articles-slide-img" href="./Blog-individual.html"><img src="./images/articles-slider/slide2.jpg"
+                                alt="slide4"></a>
+                        <nav class="main__articles-slide-tags">
+                            <a class="main__slide-tags-frontend" href="#">Frontend</a>
+                            <a class="main__slide-tags-tips" href="#">Tips</a>
+                            <a class="main__slide-tags-c" href="#">C#</a>
+                        </nav>
+                        <h4 class="main__articles-slide-heading"><a href="./Blog-individual.html">Наскільки ефективне навчання з
+                                дрібницями на утримання.</a></h4>
+                        <p class="main__articles-slide-text">Питання максимізації уваги учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної Питання максимізації уваги
+                            учнів і збільшення
+                            залученості переслідують вчителів на всіх рівнях шкільної</p>
+                        <div class="main__articles-slide-panel">
+                            <div class="main__articles-slide-calendar">
+                                <img src="./images/articles-slider/calendar.svg" alt="calendar">
+                                <p class="main__articles-slide-date">5.05.2022</p>
+                            </div>
+                            <div class="main__articles-slide-views">
+                                <img src="./images/articles-slider/eye1.svg" alt="eye1">
+                                <p class="main__articles-slide-views-count">48</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination main__swiper-pagination-blog"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev-3 main__swiper-button-prev-blog">
+                    <svg class="main__slider-arrow-prev-btn" width="40" height="12" viewBox="0 0 40 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-9.53674e-07 5.99988L6 0V4.81907L6 7.18085L6 12L-9.53674e-07 5.99988Z"
+                            fill="#23262D" />
+                        <line y1="-1" x2="34.4444" y2="-1" transform="matrix(1 7.86805e-08 9.71364e-08 -1 5.55469 5)"
+                            stroke="#23262D" stroke-width="2" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next-3 main__swiper-button-next-blog">
+                    <svg class="main__slider-arrow-next-btn" width="63" height="55" viewBox="0 0 63 55" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35.5" cy="27.5" r="26.5" transform="rotate(-180 35.5 27.5)" stroke="#E36F59"
+                            stroke-width="2" />
+                        <path d="M40 27.0001L34 33L34 28.1809L34 25.8191L34 21L40 27.0001Z" fill="#E36F59" />
+                        <line y1="-1" x2="34.4444" y2="-1" transform="matrix(-1 -1.66103e-07 -1.84559e-07 1 34.4453 28)"
+                            stroke="#E36F59" stroke-width="2" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </main>
+    <svg class="main__background-pink" width="721" height="695" viewBox="0 0 721 695" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.07"
+            d="M831.662 325.273C736.61 162.365 478.389 220.504 425.691 141.294C398.756 100.713 368.503 53.6937 324.783 29.3062C283.015 5.89412 234.611 -2.4952 192.452 0.626409C41.7748 11.7471 -22.2437 146.366 6.83788 294.447C45.4832 491.889 220.558 693.623 428.423 694.988C537.137 695.769 640.972 656.944 722.557 601.926C723.142 601.535 723.728 601.145 724.313 600.755C805.898 545.346 904.268 449.552 831.662 325.273Z"
+            fill="#E36F59" />
+    </svg>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="footer__author">Made with ❤️ by Stanislav Zghurskyi ©2022</p>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-items"><a href="#">Linkedin</a></li>
+                        <li class="footer__navigation-items"><a href="#">Telegram</a></li>
+                        <li class="footer__navigation-items"><a href="#">Gmail</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/components/blog-dropdown.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/components/swiper-slider.js"></script>
+</body>
+
+</html>

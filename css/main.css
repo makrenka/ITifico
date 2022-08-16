@@ -8,12 +8,16 @@
 @import url(../libs/css/awesome.css);
 @import url(./components/articles-section.css);
 @import url(./components/slide-articles-blog.css);
-@import url(./components/swiper-slider.css);
+@import url(./components/articles-slider.css);
 @import url(./components/courses-section.css);
 @import url(./components/slide-courses.css);
 @import url(./components/rubric-section.css);
 @import url(./components/form-subscription.css);
 @import url(./components/footer.css);
+@import url(./components/blog-main.css);
+@import url(./components/blog-slider.css);
+@import url(./components/blog-individual.css);
+@import url(./components/courses-catalog.css);
 
 
 * {

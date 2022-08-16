@@ -3,39 +3,6 @@
     z-index: -1;
 }
 
-.main__background-pink {
-    position: absolute;
-    top: 842px;
-    right: 0;
-    z-index: -1;
-}
-
-.main__background-big-blue {
-    position: absolute;
-    top: 1460px;
-    z-index: -1;
-}
-
-.main__background-small-blue-courses {
-    position: absolute;
-    top: 1752px;
-    left: 1273px;
-    z-index: -1;
-}
-
-.main__background-pink-footer {
-    position: absolute;
-    top: 2653px;
-    z-index: -1;
-}
-
-.main__background-small-blue-form {
-    position: absolute;
-    top: 2909px;
-    left: 1300px;
-    z-index: -1;
-}
-
 .container {
     margin: 0 auto;
     max-width: 1230px;
@@ -45,7 +12,5 @@
     margin: 0 auto;
     max-width: 1260px;
 }
-
-
 
 
