@@ -36,6 +36,11 @@ const swiper = new Swiper('.main__articles-slider-list', {
       spaceBetween: 30,
       width: 576,
     },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      width: 320,
+    },
   },
 
   // If we need pagination

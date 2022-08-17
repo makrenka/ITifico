@@ -155,3 +155,9 @@
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .main__courses-slider-list .swiper-slide-active {
+        width: 390px !important;
+    }
+}
