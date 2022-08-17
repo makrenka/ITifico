@@ -1,7 +1,7 @@
 .main__courses-slide-hero {
     font-family: 'Segoe UI';
     font-style: normal;
-    width: 600px;
+    /* width: 600px; */
     height: 266px !important;
     background: #CCC1F6;
     border-radius: 8px;
@@ -147,5 +147,11 @@
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__courses-slide-heading-new {
+        margin-top: 30px;
     }
 }

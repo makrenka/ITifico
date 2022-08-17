@@ -92,3 +92,9 @@
         right: 60px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .main__slider-arrow-prev {
+        left: 30px !important;
+    }
+}

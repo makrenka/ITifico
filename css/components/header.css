@@ -80,6 +80,10 @@
     color: var(--white);
 }
 
+.header__navigation-hamburger {
+    display: none;
+}
+
 @media screen and (max-width: 828px) {
     .header__logo {
         display: none;
@@ -96,5 +100,25 @@
     .header__navigation-link {
         font-size: 14px;
         line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__navigation-list-item {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__logo-828 img {
+        max-width: 71px;
+    }
+
+    .header__navigation-list {
+        display: none;
+    }
+
+    .header__navigation-hamburger {
+        display: block;
     }
 }

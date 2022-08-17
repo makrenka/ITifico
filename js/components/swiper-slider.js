@@ -26,10 +26,15 @@ const swiper = new Swiper('.main__articles-slider-list', {
       spaceBetween: 30,
       width: 828,
     },
-    750: {
+    768: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 720,
+      width: 768,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 576,
     },
   },
 
@@ -74,10 +79,20 @@ new Swiper('.main__courses-slider-list', {
       spaceBetween: 30,
       width: 828,
     },
-    750: {
+    768: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 700,
+      width: 768,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 576,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      width: 320,
     },
   },
 
