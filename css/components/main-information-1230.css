@@ -27,6 +27,10 @@
     display: none;
 }
 
+.main__background-big-blue-courses-320 {
+    display: none;
+}
+
 .main__background-small-blue-courses {
     position: absolute;
     top: 1752px;
@@ -44,6 +48,10 @@
     z-index: -1;
 }
 
+.main__background-pink-footer-328 {
+    display: none;
+}
+
 .main__background-small-blue-form {
     position: absolute;
     top: 2909px;
@@ -52,6 +60,10 @@
 }
 
 .main__background-small-blue-form-828 {
+    display: none;
+}
+
+.main__background-small-blue-form-320 {
     display: none;
 }
 
@@ -451,6 +463,37 @@
 
     .main__background-pink-828 {
         display: none;
+    }
+
+    .main__background-big-blue {
+        display: none;
+    }
+
+    .main__background-small-blue-courses-828 {
+        display: none;
+    }
+
+    .main__background-pink-footer {
+        display: none;
+    }
+    
+    .main__background-pink-footer-328 {
+        display: block;
+        position: absolute;
+        top: 1943px;
+        z-index: -1;
+    }
+
+    .main__background-small-blue-form-828 {
+        display: none;
+    }
+    
+    .main__background-small-blue-form-320 {
+        display: block;
+        position: absolute;
+        top: 2224px;
+        right: 0;
+        z-index: -1;
     }
 
     .main__information-wrapper {

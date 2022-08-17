@@ -110,7 +110,7 @@
 }
 
 .main__subscription-input-btn-mail {
-    margin: -4px;
+    margin-left: -4px;
     width: 60px;
     height: 60px;
     border: none;
@@ -247,13 +247,57 @@
 @media screen and (max-width: 576px) {
     .main__form-subscription {
         margin-top: 80px;
-        padding: 30px 20px;
+        padding: 30px 20px 30px 16px;
+    }
+
+    .main__subscription-wrapper-heading {
+        background: url(../../images/background/rectangle-form-small-320.svg) no-repeat 0px 20px;
     }
 
     .main__subscription-heading {
         font-size: 24px;
         line-height: 30px;
         text-align: left;
-        padding-left: 0;
+        padding-left: 4px;
+        background: url(../../images/background/rectangle-form-large-320.svg) no-repeat 0px 49px;
+    }
+
+    .main__subscription-text {
+        margin-top: 6px;
+        text-align: left;
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 4px;
+    }
+
+    .main__subscription-wrapper-inputs {        
+        margin-top: 15px;
+    }
+
+    .main__subscription-wrapper-user {
+        margin-top: 15px;
+    }
+
+    .main__subscription-wrapper-mail {
+        margin-top: 15px;
+    }
+
+    .main__subscription-input {
+        width: 200px;
+        padding-left: 21px;
+        height: 26px;
+    }
+
+    .main__subscription-input-btn-user {
+        height: 36px;
+    }
+
+    .main__subscription-input-btn-mail {
+        height: 36px;
+    }
+
+    .main__subscription-btn {
+        margin-top: 15px;
+        height: 50px;
     }
 }

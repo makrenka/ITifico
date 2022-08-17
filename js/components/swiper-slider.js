@@ -140,3 +140,17 @@ new Swiper('.main__swiper-blog', {
 
 
 });
+
+new Swiper('.main__rubric-slider-320', {
+  // Optional parameters    
+  loop: true,
+  slidesPerView: 1,     
+  
+  // Navigation arrows
+  navigation: {
+      nextEl: '.swiper-button-next-4',
+      prevEl: '.swiper-button-prev-4',
+  },
+
+
+});
