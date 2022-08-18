@@ -198,3 +198,21 @@
         z-index: 1;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .main__rubric-heading {
+        margin-right: 25px;
+        margin-left: 25px;
+        background: url(../../images/background/rectangle-rubric-320.svg) no-repeat center 48px;
+    }
+
+    .swiper-button-next-4 {
+        bottom: 28px;
+        right: 0px;
+    }
+
+    .swiper-button-prev-4 {
+        bottom: 28px;
+        left: 0px;
+    }
+}

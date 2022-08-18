@@ -259,7 +259,7 @@
         line-height: 30px;
         text-align: left;
         padding-left: 4px;
-        background: url(../../images/background/rectangle-form-large-320.svg) no-repeat 0px 49px;
+        background: url(../../images/background/rectangle-form-large-320.svg) no-repeat 62px 49px;
     }
 
     .main__subscription-text {
@@ -272,6 +272,8 @@
 
     .main__subscription-wrapper-inputs {        
         margin-top: 15px;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .main__subscription-wrapper-user {
@@ -299,5 +301,16 @@
     .main__subscription-btn {
         margin-top: 15px;
         height: 50px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__subscription-heading {
+        background: url(../../images/background/rectangle-form-large-320.svg) no-repeat 100px 49px;
+    }
+
+    .main__subscription-btn {
+        width: 250px;
     }
 }

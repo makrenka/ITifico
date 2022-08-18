@@ -89,12 +89,14 @@
     }
 }
 
-@media screen and (max-width: 320px) {    
+@media screen and (max-width: 360px) {    
     .container {
         max-width: 290px;
+        margin: 0 auto;
     }
 
     .container-slider {
-        max-width: 320px;
+        max-width: 310px;
+        margin: 0 auto;
     }
 }

@@ -38,8 +38,8 @@ const swiper = new Swiper('.main__articles-slider-list', {
     },
     320: {
       slidesPerView: 1,
-      spaceBetween: 30,
-      width: 320,
+      spaceBetween: 15,
+      width: 260,
     },
   },
 
@@ -96,8 +96,8 @@ new Swiper('.main__courses-slider-list', {
     },
     320: {
       slidesPerView: 1,
-      spaceBetween: 30,
-      width: 320,
+      spaceBetween: 15,
+      width: 290,
     },
   },
 
