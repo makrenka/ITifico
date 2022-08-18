@@ -480,7 +480,7 @@
     .main__background-pink-footer-328 {
         display: block;
         position: absolute;
-        top: 1943px;
+        top: 2033px;
         z-index: -1;
     }
 
@@ -491,7 +491,7 @@
     .main__background-small-blue-form-320 {
         display: block;
         position: absolute;
-        top: 2224px;
+        top: 2345px;
         right: 0;
         z-index: -1;
     }
@@ -549,5 +549,18 @@
 
     .main__information-text-scroll-down-1080 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__background-big-blue-courses-320 {
+        display: block;
+        position: absolute;
+        top: 1315px;
+        z-index: -1;
+    }
+
+    .main__background-pink-footer-328 {
+        
     }
 }

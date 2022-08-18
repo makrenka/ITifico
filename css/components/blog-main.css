@@ -56,13 +56,14 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .main__blog-navigation-tags {
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .main__blog-navigation-tags li {
@@ -130,18 +131,22 @@
     text-decoration: none;
 }
 
-.main__blog-navigation-sort {    
+.main__blog-navigation-sort {
     width: 232px;
     border: 2px solid var(--border);
     border-radius: 8px;
     cursor: pointer;
 }
 
-.main__blog-navigation-sort--active {   
-    border-color: var(--gray2);    
+.main__blog-navigation-sort-adaptive {
+    display: none;
 }
 
-.main__blog-navigation-sort-dropdown--active {    
+.main__blog-navigation-sort--active {
+    border-color: var(--gray2);
+}
+
+.main__blog-navigation-sort-dropdown--active {
     border-bottom: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -151,7 +156,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15px;        
+    margin: 0 15px;
 }
 
 .main__blog-navigation-sort-wrapper--active {
@@ -185,7 +190,7 @@
 }
 
 .main__blog-navigation-sort-list--active {
-    display: block;    
+    display: block;
     z-index: 2;
 }
 
@@ -211,4 +216,45 @@
 
 .main__blog-sort-item-link:hover {
     color: var(--white);
+}
+
+@media screen and (max-width: 1570px) {
+    .main__blog-title-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    .main__blog-navigation-sort {
+        display: none;
+    }
+
+    .main__blog-heading-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .main__blog-heading {
+        margin-top: 0;
+    }
+
+    .main__blog-navigation-sort-adaptive {
+        display: block;
+        border: 2px solid var(--border);
+        border-radius: 8px;
+        cursor: pointer;
+        width: 330px;
+    }
+
+    .main__blog-navigation-tags-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .main__blog-navigation {
+        margin-top: 30px;
+    }
 }

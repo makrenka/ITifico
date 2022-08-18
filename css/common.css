@@ -70,11 +70,11 @@
 
 @media screen and (max-width: 768px) {    
     .container {
-        max-width: 580px;
+        max-width: 690px;
     }
 
     .container-slider {
-        max-width: 610px;
+        max-width: 720px;
     }
 }
 

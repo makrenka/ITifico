@@ -21,3 +21,18 @@ main .main__swiper-blog {
     right: 78px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 828px) {
+    main .main__swiper-blog {
+        margin-top: 50px;
+    }
+
+    .main__swiper-button-prev-blog {
+        bottom: 55px;
+        left: 12px;
+    }
+
+    .main__swiper-button-next-blog {
+        right: 71px;
+    }
+}
