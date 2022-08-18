@@ -80,7 +80,11 @@
     color: var(--white);
 }
 
-.header__navigation-hamburger {
+.header__mobile-menu-hamburger {
+    display: none;
+}
+
+.header__mobile-menu {
     display: none;
 }
 
@@ -110,15 +114,93 @@
 }
 
 @media screen and (max-width: 576px) {
+    .header {
+        background: #FFFFFF;
+    }
+
+    .header__wrapper {
+        display: none;
+    }
+
+    .header__mobile-menu {
+        position: relative;
+        display: block;
+        background: #FFFFFF;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .header__mobile-menu-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
     .header__logo-828 img {
         max-width: 71px;
     }
 
-    .header__navigation-list {
+    .header__mobile-menu-hamburger {
+        display: block;
+    }
+
+    .header__mobile-menu-drawer-img {
         display: none;
     }
 
-    .header__navigation-hamburger {
+    .header__mobile-menu-dropdown {
+        position: absolute;
+    }
+
+    .header__mobile-menu-list {
+        padding: 30px 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+    }
+
+    .header__mobile-menu-item {
+        padding: 6px 0 10px 0;
+    }
+
+    .header__mobile-menu-item:active {
+        background: var(--red);
+    }
+
+    .header__mobile-menu-item a {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--link-color);
+        text-decoration: none;
         display: block;
+    }
+
+    .header__mobile-menu-item a:active {
+        color: var(--white);
+    }
+
+    .header__mobile-menu-footer-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .header__mobile-menu-footer-item a {
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--link-color);
+        text-decoration: none;
+    }
+
+    .header__mobile-menu-footer-item a:active {
+        color: var(--link-active-color);
     }
 }
