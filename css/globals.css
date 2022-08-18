@@ -13,4 +13,7 @@
 
     --article-title: var(--black);
     --article-text: var(--txt);
+
+    --overlay-z-index: 100;
+    --header-menu-z-index: 101;
 }
