@@ -7,37 +7,52 @@ const swiper = new Swiper('.main__articles-slider-list', {
     1255: {
       slidesPerView: 4,
       spaceBetween: 30,
-      // width: 1230,
+      width: 1230,
     },
     1080: {
       slidesPerView: 3,
       spaceBetween: 30,
-      // width: 1080,
+      width: 1080,
     },
     992: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 992,
+      width: 992,
     },
     828: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 828,
+      width: 828,
     },
     768: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 768,
+      width: 770,
+    },
+    690: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      width: 690,
     },
     576: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 576,
+      width: 546,
     },
-    320: {
+    420: {
       slidesPerView: 1,
-      spaceBetween: 15,
-      // width: 260,
+      spaceBetween: 30,
+      width: 390,
+    },
+    360: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      width: 330,
+    },
+    310: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      width: 260,
     },
   },
 
@@ -65,37 +80,52 @@ new Swiper('.main__courses-slider-list', {
     1255: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 1230,
+      width: 1230,
     },
     1080: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 1080,
+      width: 1080,
     },
     992: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 992,
+      width: 992,
     },
     828: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 828,
+      width: 828,
     },
     768: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 768,
+      width: 770,
     },
-    576: {
+    690: {
       slidesPerView: 2,
       spaceBetween: 30,
-      // width: 576,
+      width: 690,
     },
-    320: {
+    576: {
       slidesPerView: 1,
-      spaceBetween: 15,
-      // width: 290,
+      spaceBetween: 30,
+      width: 546,
+    },
+    420: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      width: 390,
+    },
+    360: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      width: 330,
+    },
+    310: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      width: 290,
     },
   },
 

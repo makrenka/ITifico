@@ -97,6 +97,20 @@
     .main__slider-arrow-prev {
         left: 30px !important;
     }
+
+    .main__slider-arrow-next {
+        right: 28px !important;
+    }
+
+    .main__slider-courses-arrow-next {
+        top: 361px;
+        right: 72px;
+    }
+
+    .main__slider-courses-arrow-prev {
+        top: 361px;
+        left: 12px;
+    }
 }
 
 @media screen and (max-width: 360px) {
