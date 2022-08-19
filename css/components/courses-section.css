@@ -11,3 +11,13 @@
         margin-top: 102px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .main__courses {
+        margin-top: 79px;
+    }
+
+    .main__courses-slider-list {
+        height: 330px;
+    }
+}

@@ -73,6 +73,10 @@
     margin-top: 37px;
 }
 
+.main__rubric-slider-320 {
+    display: none;
+}
+
 @media screen and (max-width: 828px) {
     .main__rubric-heading {
         margin-top: 100px;
@@ -110,5 +114,105 @@
 
     .main__rubric-frame3-img {
         max-width: 210px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__rubric-frame1 {
+        margin-right: 20px;
+    }
+
+    .main__rubric-frame2 {
+        margin-right: 10px;
+    }
+
+    .main__rubric-frame2-img {
+        max-width: 200px;
+    }
+
+    .main__rubric-frame3-img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main__rubric-frames-wrapper {
+        display: none;
+    }
+
+    .main__rubric-heading {
+        margin-top: 80px;
+        font-size: 24px;
+        line-height: 30px;
+        background: url(../../images/background/rectangle-rubric-320.svg) no-repeat center 19px;
+    }
+
+    .main__rubric-slider-320-wrapper {
+        margin-top: 11px;
+    }
+
+    .main__rubric-slider-320 {
+        display: block;
+        position: relative;
+    }
+
+    .main__rubric-slide-320 {
+        text-align: center;
+    }
+
+    .main__rubric-slide-frame1 {
+        width: 290px;
+    }
+
+    .main__rubric-slide-frame2,
+    .main__rubric-slide-frame3 {
+        margin-top: 20px;
+    }
+
+    .main__rubric-slide-title {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--title-color);
+        padding: 0 39px;
+    }
+
+    .main__rubric-slide-title2,
+    .main__rubric-slide-title3 {
+        margin-top: 20px;
+    }
+
+    .swiper-button-prev-4 {
+        position: absolute;
+        bottom: 7px;
+        left: 17px;
+        z-index: 1;
+    }
+
+    .swiper-button-next-4 {
+        position: absolute;
+        bottom: 7px;
+        right: 17px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__rubric-heading {
+        margin-right: 25px;
+        margin-left: 25px;
+        background: url(../../images/background/rectangle-rubric-320.svg) no-repeat center 48px;
+    }
+
+    .swiper-button-next-4 {
+        bottom: 28px;
+        right: 0px;
+    }
+
+    .swiper-button-prev-4 {
+        bottom: 28px;
+        left: 0px;
     }
 }

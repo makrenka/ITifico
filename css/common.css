@@ -13,4 +13,90 @@
     max-width: 1260px;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--overlay-z-index);
+    display: none;
+}
 
+.overlay--active {
+    display: block;
+}
+
+@media screen and (max-width: 1255px) {
+    .container {
+        max-width: 1080px;
+    }
+
+    .container-slider {
+        max-width: 1110px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .container-slider {
+        max-width: 1022px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 828px;
+    }
+
+    .container-slider {
+        max-width: 858px;
+    }
+}
+
+@media screen and (max-width: 828px) {    
+    .container {
+        max-width: 770px;
+    }
+
+    .container-slider {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+    .container {
+        max-width: 690px;
+    }
+
+    .container-slider {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 576px) {    
+    .container {
+        max-width: 390px;
+        margin: 0 8%;
+    }
+
+    .container-slider {
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 360px) {    
+    .container {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+    .container-slider {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+}

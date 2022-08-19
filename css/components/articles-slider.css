@@ -92,3 +92,21 @@
         right: 60px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .main__slider-arrow-prev {
+        left: 30px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__slider-arrow-prev, 
+    .main__slider-arrow-next {
+        top: 466px !important;
+    }
+
+    .main__slider-courses-arrow-prev,
+    .main__slider-courses-arrow-next {
+        top: 292px;
+    }
+}

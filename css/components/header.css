@@ -98,3 +98,19 @@
         line-height: 19px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header__navigation-list-item {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {    
+    .header__wrapper {
+        display: none;
+    }
+
+    .header__logo-828 img {
+        max-width: 71px;
+    }
+}

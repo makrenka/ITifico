@@ -2,34 +2,42 @@ const swiper = new Swiper('.main__articles-slider-list', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  // slidesPerView: 4,
-  // spaceBetween: 30,
-  // width: 1230,
+  
   breakpoints: {
     1255: {
       slidesPerView: 4,
       spaceBetween: 30,
-      width: 1230,
+      // width: 1230,
     },
     1080: {
       slidesPerView: 3,
       spaceBetween: 30,
-      width: 1080,
+      // width: 1080,
     },
     992: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 992,
+      // width: 992,
     },
     828: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 828,
+      // width: 828,
     },
-    750: {
+    768: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 720,
+      // width: 768,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      // width: 576,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 15,
+      // width: 260,
     },
   },
 
@@ -52,32 +60,42 @@ const swiper = new Swiper('.main__articles-slider-list', {
 new Swiper('.main__courses-slider-list', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,  
+  loop: true,
   breakpoints: {
     1255: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 1230,
+      // width: 1230,
     },
     1080: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 1080,
+      // width: 1080,
     },
     992: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 992,
+      // width: 992,
     },
     828: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 828,
+      // width: 828,
     },
-    750: {
+    768: {
       slidesPerView: 2,
       spaceBetween: 30,
-      width: 700,
+      // width: 768,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      // width: 576,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 15,
+      // width: 290,
     },
   },
 
@@ -99,23 +117,97 @@ new Swiper('.main__courses-slider-list', {
 
 new Swiper('.main__swiper-blog', {
   // Optional parameters  
-  spaceBetween: 30,   
-  slidesPerView: 4,     
-  grid: {
-      fill: 'row',
-      rows: 2,
+
+  breakpoints: {
+    1255: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      grid: {
+        fill: 'row',
+        rows: 2,
+      },
+      // width: 1230,
+    },
+    1080: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      grid: {
+        fill: 'row',
+        rows: 2,
+      },
+      // width: 1080,
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      grid: {
+        fill: 'row',
+        rows: 2,
+      },
+      // width: 992,
+    },
+    828: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      grid: {
+        fill: 'row',
+        rows: 2,
+      },
+      // width: 828,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      grid: {
+        fill: 'row',
+        rows: 4,
+      },
+      // width: 768,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      grid: {
+        fill: 'row',
+        rows: 4,
+      },
+      // width: 576,
+    },
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 15,
+      grid: {
+        fill: 'row',
+        rows: 3,
+      },
+      // width: 290,
+    },
   },
-  
+
 
   // If we need pagination
   pagination: {
-      el: '.swiper-pagination',
+    el: '.swiper-pagination',
   },
 
   // Navigation arrows
   navigation: {
-      nextEl: '.swiper-button-next-3',
-      prevEl: '.swiper-button-prev-3',
+    nextEl: '.swiper-button-next-3',
+    prevEl: '.swiper-button-prev-3',
+  },
+
+
+});
+
+new Swiper('.main__rubric-slider-320', {
+  // Optional parameters    
+  loop: true,
+  slidesPerView: 1,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next-4',
+    prevEl: '.swiper-button-prev-4',
   },
 
 

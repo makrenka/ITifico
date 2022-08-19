@@ -1,3 +1,11 @@
+.background-blue-blog-catalog-750 {
+    display: none;
+}
+
+.background-pink-blog-catalog-750 {
+    display: none;
+}
+
 .main__blog-wrapper {
     position: relative;
     margin-top: 31px;
@@ -63,6 +71,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .main__blog-navigation-tags li {
@@ -130,18 +139,24 @@
     text-decoration: none;
 }
 
-.main__blog-navigation-sort {    
+.main__blog-navigation-sort {
     width: 232px;
+    height: 36px;
     border: 2px solid var(--border);
     border-radius: 8px;
     cursor: pointer;
+    position: relative;
 }
 
-.main__blog-navigation-sort--active {   
-    border-color: var(--gray2);    
+.main__blog-navigation-sort-adaptive {
+    display: none;
 }
 
-.main__blog-navigation-sort-dropdown--active {    
+.main__blog-navigation-sort--active {
+    border-color: var(--gray2);
+}
+
+.main__blog-navigation-sort-dropdown--active {
     border-bottom: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -151,7 +166,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15px;        
+    margin: 0 15px;
 }
 
 .main__blog-navigation-sort-wrapper--active {
@@ -159,12 +174,11 @@
 }
 
 .main__blog-navigation-sort-legend {
-    padding: 9px 0 11px 1px;
+    padding: 7px 0 9px 1px;
 }
 
 .main__blog-navigation-sort-wrapper-svg {
-    margin-right: 6px;
-    padding: 5px;
+    padding: 3px 0 5px;
 }
 
 .main__blog-navigation-sort-arrow--active {
@@ -175,7 +189,7 @@
     position: absolute;
     display: none;
     top: 100%;
-    right: 0;
+    left: -2px;
     width: 232px;
     background: #FFFFFF;
     border: 2px solid var(--border);
@@ -185,7 +199,7 @@
 }
 
 .main__blog-navigation-sort-list--active {
-    display: block;    
+    display: block;
     z-index: 2;
 }
 
@@ -211,4 +225,108 @@
 
 .main__blog-sort-item-link:hover {
     color: var(--white);
+}
+
+@media screen and (max-width: 1570px) {
+    .main__blog-title-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    .main__blog-navigation-sort {
+        display: none;
+    }
+
+    .main__blog-heading-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .main__blog-heading {
+        margin-top: 0;
+    }
+
+    .main__blog-navigation-sort-adaptive {
+        display: block;
+        border: 2px solid var(--border);
+        border-radius: 8px;
+        cursor: pointer;
+        width: 330px;
+        height: 36px;
+        position: relative;
+        background: #FFFFFF;
+    }
+
+
+    .main__blog-navigation-sort-dropdown-adaptive--active {
+        border-bottom: none;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .main__blog-navigation-sort-wrapper-adaptive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 15px;
+    }
+
+    .main__blog-navigation-sort-wrapper-adaptive--active {
+        border-bottom: 1px solid var(--border);
+    }
+
+
+    .main__blog-navigation-sort-list-adaptive {
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: -2px;
+        width: 330px;
+        background: #FFFFFF;
+        border: 2px solid var(--border);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top: none;
+    }
+
+    .main__blog-navigation-sort-list-adaptive--active {
+        display: block;
+        z-index: 2;
+    }
+
+    .main__blog-navigation-sort-arrow-adaptive--active {
+        transform: rotate(180deg);
+    }
+
+
+    .main__blog-navigation-tags-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .main__blog-navigation {
+        margin-top: 30px;
+    }
+
+    .background-blue-blog-catalog-750 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .background-pink-blog-catalog-750 {
+        display: block;
+        position: absolute;
+        top: 1945px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .footer__blog-catalog {
+        margin-top: 100px;
+    }
 }
