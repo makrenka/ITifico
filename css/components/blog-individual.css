@@ -139,7 +139,6 @@
 
 .main__blog-individual-quote {
     margin-top: 87px;
-    margin-bottom: 10px;
     position: relative;
     background: #EEF0F3;
     border-radius: 10px;
@@ -176,6 +175,10 @@
     font-size: 18px;
     line-height: 30px;
     color: var(--black);
+}
+
+.main__blog-individual-quote-text-750 {
+    display: none;
 }
 
 .main__blog-individual-text-bottom {
@@ -282,6 +285,10 @@
     padding-left: 15px;
 }
 
+.main__blog-individual-wrapper-right-adaptive {
+    display: none;
+}
+
 .main__blog-individual-right-heading-top {
     margin-top: 86px;
     font-family: 'Bitter';
@@ -342,7 +349,7 @@
     color: var(--black);
 }
 
-.main__blog-individual-right-courses-card-link {    
+.main__blog-individual-right-courses-card-link {
     font-family: 'Bitter';
     font-style: normal;
     font-weight: 600;
@@ -358,4 +365,170 @@
 
 .main__blog-individual-right-courses-card-link:hover {
     color: var(--link-active-color);
+}
+
+@media screen and (max-width: 1255px) {
+    .main__blog-individual-heading {
+        margin-top: 20px;
+    }
+
+    .main__blog-individual-wrapper-right {
+        display: none;
+    }
+
+    .main__blog-individual-wrapper-right-adaptive {
+        display: block;
+    }
+
+    .main__blog-individual-right-heading-top {
+        margin-top: 100px;
+    }
+
+    .main__blog-individual-right-heading-bottom {
+        margin-top: 50px;
+    }
+
+    .main__blog-individual-right-courses-card {
+        max-width: 690px;
+        height: 292px;
+    }
+
+    .main__blog-individual-right-courses-card-text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .main__blog-individual-right-courses-card-link {
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main__blog-main-img {
+        max-width: 828px;
+    }
+
+    .main__blog-individual-image-block {
+        justify-content: start;
+    }
+
+    .main__blog-individual-image-block-img:first-child {
+        margin-right: 30px;
+    }
+
+    .main__blog-individual-image-block-img img {
+        width: 330px;
+    }
+
+    .image-block-display-none-adaptive {
+        display: none;
+    }
+
+    .container-blog-individual-slider {
+        max-width: 858px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .background-pink-main-blog-individual {
+        display: none;
+    }
+
+    .background-big-blue-blog-individual {
+        display: none;
+    }
+
+    .main__blog-main-img {
+        max-width: 768px;
+    }
+
+    .container-blog-individual-slider {
+        max-width: 798px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__blog-individual-wrapper-left {
+        margin-top: 20px;
+    }
+
+    .main__blog-individual-heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main__blog-main-img {
+        max-width: 690px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .main__blog-heading-h3 {
+        margin-top: 40px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .main__blog-individual-list-discs {
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .main__blog-individual-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .main__blog-individual-list-decimal {
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .main__blog-individual-image-block {
+        margin-top: 40px;
+    }
+
+    .main__blog-individual-quote {
+        margin-top: 40px;
+        padding: 36px 30px 38px 40px;
+    }
+
+    .main__blog-individual-quote-icon {
+        top: 37px;
+        left: 40px;
+    }
+
+    .main__blog-individual-quote-author {
+        margin-top: 104px;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding-right: 31px;
+    }
+
+    .main__blog-individual-quote-text {
+        display: none;
+    }
+
+    .main__blog-individual-quote-text-750 {
+        display: block;
+        font-family: 'Segoe UI';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--black);
+        padding-left: 18px;
+    }
+
+    .main__blog-individual-text-bottom {
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .container-blog-individual-slider {
+        max-width: 720px;
+    }
 }
