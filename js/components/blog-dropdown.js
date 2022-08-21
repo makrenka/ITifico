@@ -38,6 +38,7 @@ function dropdownAdaptiveOpen(evt) {
     navigationSortAdaptive.classList.toggle('main__blog-navigation-sort-dropdown-adaptive--active'); 
     navigationWrapperSortAdaptive.classList.toggle('main__blog-navigation-sort-wrapper-adaptive--active');
     evt.stopPropagation();
+    evt.preventDefault()
 }
 
 function dropdownClose(evt) {

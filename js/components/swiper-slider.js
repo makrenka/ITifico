@@ -155,8 +155,7 @@ new Swiper('.main__swiper-blog', {
       grid: {
         fill: 'row',
         rows: 2,
-      },
-      // width: 1230,
+      },      
     },
     1080: {
       slidesPerView: 4,
@@ -164,8 +163,7 @@ new Swiper('.main__swiper-blog', {
       grid: {
         fill: 'row',
         rows: 2,
-      },
-      // width: 1080,
+      },      
     },
     992: {
       slidesPerView: 3,
@@ -173,8 +171,7 @@ new Swiper('.main__swiper-blog', {
       grid: {
         fill: 'row',
         rows: 2,
-      },
-      // width: 992,
+      },     
     },
     828: {
       slidesPerView: 3,
@@ -182,8 +179,7 @@ new Swiper('.main__swiper-blog', {
       grid: {
         fill: 'row',
         rows: 2,
-      },
-      // width: 828,
+      },      
     },
     768: {
       slidesPerView: 2,
@@ -191,8 +187,7 @@ new Swiper('.main__swiper-blog', {
       grid: {
         fill: 'row',
         rows: 4,
-      },
-      // width: 768,
+      },     
     },
     576: {
       slidesPerView: 2,
@@ -200,17 +195,15 @@ new Swiper('.main__swiper-blog', {
       grid: {
         fill: 'row',
         rows: 4,
-      },
-      // width: 576,
+      },      
     },
     300: {
       slidesPerView: 1,
-      spaceBetween: 15,
+      spaceBetween: 20,
       grid: {
         fill: 'row',
         rows: 3,
-      },
-      // width: 290,
+      },      
     },
   },
 
@@ -218,6 +211,7 @@ new Swiper('.main__swiper-blog', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    dynamicBullets: true,
   },
 
   // Navigation arrows

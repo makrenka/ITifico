@@ -45,6 +45,10 @@
     display: flex;
 }
 
+.header__languege-box-768 {
+    display: none;
+}
+
 .header__languege-box-item {
     display: flex;
     align-items: center;
@@ -101,6 +105,24 @@
 
 @media screen and (max-width: 768px) {
     .header__navigation-list-item {
+        margin-right: 20px;
+    }
+
+    .header__navigation-list-item:last-child {
+        margin-right: 0;
+    }
+
+    .header__languege-box {
+        display: none;
+    }
+    
+    .header__languege-box-768 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .header__navigation-list-item {
         margin-right: 10px;
     }
 }
@@ -112,5 +134,13 @@
 
     .header__logo-828 img {
         max-width: 71px;
+    }
+
+    .header__languege-box {
+        display: flex;
+    }
+    
+    .header__languege-box-768 {
+        display: none;
     }
 }

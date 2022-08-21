@@ -442,11 +442,12 @@
 
     .main__information-image-braces {
         right: 230px;
-        top: 268px;
+        top: 263px;
     }
 
     .main__information-image-brackets {
-        top: 0;
+        top: 25px;
+        left: 15px;
     }
 }
 
@@ -476,7 +477,7 @@
     .main__background-pink-footer {
         display: none;
     }
-    
+
     .main__background-pink-footer-328 {
         display: block;
         position: absolute;
@@ -487,7 +488,7 @@
     .main__background-small-blue-form-828 {
         display: none;
     }
-    
+
     .main__background-small-blue-form-320 {
         display: block;
         position: absolute;
@@ -560,7 +561,5 @@
         z-index: -1;
     }
 
-    .main__background-pink-footer-328 {
-        
-    }
+    .main__background-pink-footer-328 {}
 }

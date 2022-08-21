@@ -88,3 +88,9 @@
         width: -webkit-fill-available;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .footer__navigation-items a {
+        font-size: 14px;
+    }
+}
