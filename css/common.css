@@ -90,8 +90,7 @@
 
 @media screen and (max-width: 576px) {    
     .container {
-        max-width: 390px;
-        margin: 0 8%;
+        max-width: 390px;        
     }
 
     .container-slider {
@@ -101,8 +100,7 @@
 
 @media screen and (max-width: 420px) {    
     .container {
-        max-width: 330px;
-        margin: 0 8%;
+        max-width: 330px;        
     }
 
     .container-slider {
@@ -112,12 +110,10 @@
 
 @media screen and (max-width: 360px) {    
     .container {
-        max-width: 290px;
-        margin: 0 auto;
+        max-width: 290px;        
     }
 
     .container-slider {
-        max-width: 310px;
-        margin: 0 auto;
+        max-width: 310px;        
     }
 }

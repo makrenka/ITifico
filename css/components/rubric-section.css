@@ -201,8 +201,8 @@
 
 @media screen and (max-width: 360px) {
     .main__rubric-heading {
-        margin-right: 25px;
-        margin-left: 25px;
+        margin-right: 20px;
+        margin-left: 20px;
         background: url(../../images/background/rectangle-rubric-320.svg) no-repeat center 48px;
     }
 
