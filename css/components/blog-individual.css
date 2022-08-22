@@ -211,6 +211,15 @@
     align-items: center;
 }
 
+.main__blog-individual-social-text {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #23262D;
+}
+
 .main__blog-individual-social-facebook {
     margin-left: 30px;
 }
@@ -254,13 +263,30 @@
     align-items: center;
 }
 
+.main__blog-individual-social-text {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--black);
+}
+
 .main__blog-individual-social-arrows-prev-img {
     margin-right: 21px;
+}
+
+.main__blog-individual-social-arrows-prev-img-750 {
+    display: none;
 }
 
 .main__blog-individual-social-arrows-next {
     display: flex;
     align-items: center;
+}
+
+.main__blog-individual-social-arrows-next-img-750 {
+    display: none;
 }
 
 .main__blog-individual-social-arrows-next-img {
@@ -445,6 +471,14 @@
     .container-blog-individual-slider {
         max-width: 798px;
     }
+
+    .blog-individual-slider-prev-btn-828 {
+        left: -5px;
+    }
+
+    .blog-individual-slider-next-btn-828 {
+        right: -7px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -528,7 +562,49 @@
         line-height: 26px;
     }
 
+    .main__blog-individual-social {
+        margin-top: 40px;
+    }
+
+    .main__blog-individual-social-arrows {
+        margin-top: 40px;
+    }
+
+    .main__blog-individual-social-arrows-prev {
+        margin-left: 0;
+    }
+
+    .main__blog-individual-social-arrows-prev-img {
+        display: none;
+    }
+
+    .main__blog-individual-social-arrows-prev-img-750 {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main__blog-individual-social-arrows-next-img {
+        display: none;
+    }
+
+    .main__blog-individual-social-arrows-next-img-750 {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .main__blog-individual-other-articles {
+        margin-top: 103px;
+    }
+
     .container-blog-individual-slider {
         max-width: 720px;
+    }
+
+    .main__blog-individual-right-heading-bottom {
+        margin-top: 40px;
+    }
+
+    .footer__blog-individual {
+        margin-top: 80px;
     }
 }
