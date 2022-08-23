@@ -12,7 +12,7 @@
     z-index: -1;
 }
 
-.background-pink-blog-individual-750 {
+.background-blue-blog-individual-750 {
     display: none;
 }
 
@@ -425,6 +425,10 @@
 }
 
 @media screen and (max-width: 1255px) {
+    .container-blog-individual-left {
+        max-width: 1080px;
+    }
+
     .main__blog-individual-heading {
         margin-top: 20px;
     }
@@ -445,6 +449,10 @@
         margin-top: 50px;
     }
 
+    .main__blog-individual-social {
+        max-width: 1080px;
+    }
+
     .main__blog-individual-right-courses-card {
         max-width: 690px;
         height: 292px;
@@ -458,9 +466,31 @@
     .main__blog-individual-right-courses-card-link {
         right: 30px;
     }
+
+    .container-blog-individual-slider {
+        max-width: 1110px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .container-blog-individual-left {
+        max-width: 992px;
+    }
+
+    .main__blog-individual-social {
+        max-width: 992px;
+    }
+
+    .container-blog-individual-slider {
+        max-width: 1022px;
+    }
 }
 
 @media screen and (max-width: 992px) {
+    .container-blog-individual-left {
+        max-width: 828px;
+    }
+
     .main__blog-main-img {
         max-width: 828px;
     }
@@ -487,6 +517,10 @@
 }
 
 @media screen and (max-width: 828px) {
+    .container-blog-individual-left {
+        max-width: 768px;
+    }
+
     .background-pink-main-blog-individual {
         display: none;
     }
@@ -517,6 +551,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .container-blog-individual-left {
+        max-width: 690px;
+    }
+
     .background-blue-blog-individual-750 {
         display: block;
         position: absolute;
