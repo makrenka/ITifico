@@ -42,8 +42,35 @@
     display: none;
 }
 
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    background: #E36F59;
+}
+
 .swiper-pagination-bullet {
-    background: #E36F59 !important;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 1) !important;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+    height: 15px;
+    width: 15px;
+    padding: 3px;
+    border: 1px solid #e36f59;
+    background: #e36f59 !important;
+    background-clip: content-box !important;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+    transform: scale(1) !important;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+    transform: scale(1) !important;
 }
 
 .main__slider-courses-arrow-prev {
@@ -114,7 +141,8 @@
 }
 
 @media screen and (max-width: 360px) {
-    .main__slider-arrow-prev, 
+
+    .main__slider-arrow-prev,
     .main__slider-arrow-next {
         top: 466px !important;
     }

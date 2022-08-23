@@ -19,6 +19,7 @@
 @import url(./components/blog-individual.css);
 @import url(./components/courses-catalog.css);
 @import url(./components/header-mobile-menu.css);
+@import url(./components/blog-slider-custom-pagination.css);
 
 
 * {

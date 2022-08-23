@@ -142,8 +142,8 @@ new Swiper('.main__courses-slider-list', {
     nextEl: '.swiper-button-next-2',
     prevEl: '.swiper-button-prev-2',
   },
-
 });
+
 
 new Swiper('.main__swiper-blog', {
   // Optional parameters  
@@ -207,11 +207,13 @@ new Swiper('.main__swiper-blog', {
     },
   },
 
-
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
-    dynamicBullets: true,
+    el: '.swiper-pagination',    
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
   },
 
   // Navigation arrows
@@ -219,9 +221,8 @@ new Swiper('.main__swiper-blog', {
     nextEl: '.swiper-button-next-3',
     prevEl: '.swiper-button-prev-3',
   },
-
-
 });
+
 
 new Swiper('.main__rubric-slider-320', {
   // Optional parameters    
