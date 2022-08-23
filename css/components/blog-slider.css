@@ -10,7 +10,7 @@ main .main__swiper-blog {
 
 .main__swiper-button-prev-blog {
     position: absolute;
-    bottom: 29px;
+    bottom: 33px;
     left: 45px;
     cursor: pointer;
 }
@@ -34,5 +34,29 @@ main .main__swiper-blog {
 
     .main__swiper-button-next-blog {
         right: 71px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main .main__swiper-blog {
+        padding-bottom: 66px;
+    }
+
+    .main__swiper-button-prev-blog {
+        bottom: 36px;
+    }
+
+    .main__swiper-button-next-blog {
+        bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main__swiper-button-prev-blog {
+        left: 7px;
+    }
+
+    .main__swiper-button-next-blog {
+        right: 65px;
     }
 }

@@ -246,6 +246,14 @@
         max-height: 1380px;
         overflow: hidden;
     }
+    
+    .main__courses-catalog-products-card {
+        margin-right: 0;
+    }
+
+    .main__courses-catalog-products-card:nth-of-type(3n+3) {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -279,10 +287,6 @@
 
     .main__courses-catalog-products-card {
         height: 335px;
-        margin-right: 0;
-    }
-
-    .main__courses-catalog-products-card:nth-of-type(3n+3) {
         margin-right: 0;
     }
 

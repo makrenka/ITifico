@@ -140,7 +140,36 @@
     }
 }
 
+@media screen and (max-width: 576px) {
+    .main__slider-arrow-prev-btn-828, .main__slider-arrow-next-btn-828 {
+        height: 36px;
+    }
+
+    .main__slider-arrow-prev {
+        left: 21px !important;
+    }
+
+    .main__slider-arrow-next {
+        right: 21px !important;
+    }
+
+    .main__slider-courses-arrow-prev {
+        left: 5px;
+    }
+
+    .main__slider-courses-arrow-next {
+        right: 64px;
+    }
+}
+
 @media screen and (max-width: 360px) {
+    .main__slider-arrow-prev {
+        left: 15px !important;
+    }
+
+    .main__slider-arrow-next {
+        right: 15px !important;
+    }
 
     .main__slider-arrow-prev,
     .main__slider-arrow-next {
@@ -150,5 +179,9 @@
     .main__slider-courses-arrow-prev,
     .main__slider-courses-arrow-next {
         top: 292px;
+    }
+
+    .main__slider-courses-arrow-next {
+        right: 56px;
     }
 }
