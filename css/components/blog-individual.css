@@ -152,6 +152,10 @@
     align-items: center;
 }
 
+.main__blog-individual-image-block-img img {
+    border-radius: 8px;
+}
+
 .main__blog-individual-image-block-img-coment {
     font-family: 'Segoe UI';
     font-style: italic;

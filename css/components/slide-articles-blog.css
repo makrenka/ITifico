@@ -8,8 +8,9 @@
     border-radius: 8px;
 }
 
-.main__articles-slide-img1 {
-    background-image: url(../../images/articles-slider/slide1.jpg);
+.main__articles-slide-img img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .main__articles-slide-img:hover~.main__articles-slide-heading a {

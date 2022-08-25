@@ -62,6 +62,7 @@ const swiper = new Swiper('.main__articles-slider-list', {
     dynamicBullets: true,
     dynamicMainBullets: 4,
     clickable: true,    
+    
   },
 
   // Navigation arrows
@@ -211,7 +212,7 @@ new Swiper('.main__swiper-blog', {
   pagination: {
     el: '.swiper-pagination',    
     clickable: true,
-    renderBullet: function (index, className) {
+    renderBullet: function (index, className) {      
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   },
